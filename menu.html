@@ -1,0 +1,925 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shawarmia Grill</title>
+
+    <meta name="description"
+        content="Shawarmia Grill serves flavorful Middle Eastern shawarma, flame-grilled dishes, platters, loaded sides, drinks and desserts.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Manrope:wght@400;500;550&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <script src="js/theme-init.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- =========================
+     HEADER
+     ========================= -->
+    <header class="site-header" id="siteHeader">
+        <div class="container header-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="site-logo" aria-label="Shawarmia Grill Home">
+                <img src="images/logo.png" data-theme-light="images/logo.png" data-theme-dark="images/logo-light.png"
+                    alt="Shawarmia Grill">
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav class="main-navigation" id="mainNavigation">
+                <ul class="nav-menu">
+
+                    <!-- Home Dropdown -->
+                    <li class="nav-item has-dropdown">
+                        <a href="index.html" class="nav-link">
+                            Home
+                            <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="index.html" class="dropdown-link">
+                                    Home 1
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html" class="dropdown-link">
+                                    Home 2
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">
+                            About
+                        </a>
+                    </li>
+
+
+                    <!-- Menu -->
+                    <li class="nav-item active">
+                        <a href="menu.html" class="nav-link">
+                            Menu
+                        </a>
+
+                    </li>
+
+
+                    <!-- Catering -->
+                    <li class="nav-item">
+                        <a href="catering.html" class="nav-link">
+                            Catering Orders
+                        </a>
+                    </li>
+
+
+                    <!-- Locations -->
+                    <li class="nav-item">
+                        <a href="locations.html" class="nav-link">
+                            Locations
+                        </a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+
+            <!-- Desktop Right Actions -->
+            <div class="header-actions">
+
+                <!-- Dark Mode -->
+                <!-- RTL -->
+                <!-- Dark Mode -->
+                <button type="button" class="header-action-btn theme-toggle" id="themeToggle"
+                    aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+
+                <!-- RTL -->
+                <button type="button" class="header-action-btn rtl-toggle" id="rtlToggle" aria-label="Toggle RTL mode"
+                    title="Toggle RTL mode">
+                    <i class="fa-solid fa-right-left"></i>
+                </button>
+
+                <!-- Login -->
+                <a href="login.html" class="login-btn">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Login</span>
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Menu Toggle -->
+            <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open navigation menu"
+                aria-expanded="false">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-navigation" id="mobileNavigation">
+
+            <nav class="mobile-nav-inner">
+
+                <ul class="mobile-nav-menu">
+
+                    <!-- Home -->
+                    <li class="mobile-nav-item mobile-has-dropdown">
+
+                        <button type="button" class="mobile-nav-link mobile-dropdown-toggle">
+
+                            <span>Home</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+
+                        </button>
+
+                        <ul class="mobile-dropdown-menu">
+
+                            <li>
+                                <a href="index.html" class="mobile-dropdown-link">
+                                    Home 1
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html" class="mobile-dropdown-link">
+                                    Home 2
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="mobile-nav-item">
+                        <a href="about.html" class="mobile-nav-link">
+                            About
+                        </a>
+                    </li>
+
+
+                    <!-- Menu -->
+                    <li class="mobile-nav-item active">
+
+                        <a href="menu.html" class="mobile-nav-link">
+                            Menu
+                        </a>
+
+                    </li>
+
+
+                    <!-- Catering -->
+                    <li class="mobile-nav-item">
+                        <a href="catering.html" class="mobile-nav-link">
+                            Catering Orders
+                        </a>
+                    </li>
+
+
+                    <!-- Locations -->
+                    <li class="mobile-nav-item">
+                        <a href="locations.html" class="mobile-nav-link">
+                            Locations
+                        </a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="mobile-nav-item">
+                        <a href="contact.html" class="mobile-nav-link">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <!-- Mobile Actions -->
+                <div class="mobile-header-actions"> <button type="button" class="mobile-action-btn theme-toggle"
+                        id="mobileThemeToggle">
+
+                        <i class="fa-solid fa-moon"></i>
+                        <span>Dark Mode</span>
+
+                    </button>
+
+
+                    <button type="button" class="mobile-action-btn rtl-toggle" id="mobileRtlToggle">
+
+                        <i class="fa-solid fa-right-left"></i>
+                        <span>RTL Mode</span>
+
+                    </button>
+
+
+
+                    <a href="login.html" class="mobile-login-btn">
+
+                        <i class="fa-regular fa-user"></i>
+                        <span>Login</span>
+
+                    </a>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+        <section class="inner-page-hero menu-page-hero">
+
+            <div class="inner-page-hero-overlay"></div>
+
+            <div class="container">
+                <div class="inner-page-hero-content">
+
+                    <span class="inner-page-hero-eyebrow">
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                        OUR MENU
+                    </span>
+
+                    <h1>
+                        A Taste Worth<span>Coming Back For.</span>
+                    </h1>
+
+                    <p>
+                        From juicy shawarma and smoky grills to generous platters, loaded sides and refreshing drinks,
+                        discover something delicious for every craving.
+                    </p>
+
+                    <div class="inner-page-hero-breadcrumb">
+                        <a href="index.html">Home</a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <span>Menu</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <nav class="menu-filter" aria-label="Menu categories">
+            <div class="container">
+                <div class="menu-filter-track" role="group" aria-label="Jump to a menu category">
+                    <a class="menu-filter-link is-active" href="#all" data-menu-target="all"
+                        aria-current="location">All</a>
+                    <a class="menu-filter-link" href="#shawarma" data-menu-target="shawarma">Shawarma</a>
+                    <a class="menu-filter-link" href="#grill" data-menu-target="grill">Grill</a>
+                    <a class="menu-filter-link" href="#platters" data-menu-target="platters">Platters</a>
+                    <a class="menu-filter-link" href="#fries-loaded-sides" data-menu-target="fries-loaded-sides">Fries
+                        &amp; Loaded Sides</a>
+                    <a class="menu-filter-link" href="#drinks-desserts" data-menu-target="drinks-desserts">Drinks &amp;
+                        Desserts</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container menu-sections">
+            <section class="menu-category menu-all" id="all" aria-labelledby="all-title">
+                <header class="menu-section-heading"><span class="menu-section-eyebrow">A little of everything</span>
+                    <h2 id="all-title">A Shawarmia favourite</h2>
+                    <p>Start with the dishes our guests come back for, made fresh and full of flavour.</p>
+                </header>
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Chicken shawarma wrapped with fresh vegetables"><span
+                                class="menu-badge">Popular</span></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Shawarma</span>
+                            <div class="menu-card-title">
+                                <h3>Chicken Shawarma</h3><strong>â‚¹249</strong>
+                            </div>
+                            <p>Slow-roasted chicken, crisp greens and creamy garlic sauce in warm flatbread.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Char-grilled chicken served with herbs"><span class="menu-badge">Chefâ€™s
+                                Pick</span>
+                        </div>
+                        <div class="menu-card-body"><span class="menu-card-category">Grill</span>
+                            <div class="menu-card-title">
+                                <h3>Chicken Tikka</h3><strong>â‚¹329</strong>
+                            </div>
+                            <p>Yoghurt-marinated chicken, kissed by the flame and finished with fresh herbs.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Generous platter with grilled meat, rice and salad"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Platters</span>
+                            <div class="menu-card-title">
+                                <h3>Mixed Grill Platter</h3><strong>â‚¹649</strong>
+                            </div>
+                            <p>A generous spread of smoky grill favourites, fragrant rice and fresh salad.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Golden crisp fries served hot"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Loaded Sides</span>
+                            <div class="menu-card-title">
+                                <h3>Loaded Shawarma Fries</h3><strong>â‚¹229</strong>
+                            </div>
+                            <p>Golden fries piled with shawarma, garlic sauce and a little extra comfort.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="menu-category" id="shawarma" aria-labelledby="shawarma-title">
+                <header class="menu-section-heading"><span class="menu-section-eyebrow">Carved fresh, wrapped
+                        warm</span>
+                    <h2 id="shawarma-title">Shawarma</h2>
+                    <p>Slow-roasted, juicy and packed with authentic flavour.</p>
+                </header>
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Chicken shawarma wrap with fresh vegetables"><span
+                                class="menu-badge">Popular</span></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Shawarma</span>
+                            <div class="menu-card-title">
+                                <h3>Chicken Shawarma</h3><strong>â‚¹249</strong>
+                            </div>
+                            <p>Slow-roasted chicken, pickles and garlic sauce, wrapped to order.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1603360946369-dc9bb6258143?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Seasoned beef shawarma with herbs"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Shawarma</span>
+                            <div class="menu-card-title">
+                                <h3>Beef Shawarma</h3><strong>â‚¹299</strong>
+                            </div>
+                            <p>Tender spiced beef, crisp vegetables and our signature tahini.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1561651823-34feb02250e4?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Freshly wrapped shawarma sandwich"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Shawarma</span>
+                            <div class="menu-card-title">
+                                <h3>Shawarma Wrap</h3><strong>â‚¹229</strong>
+                            </div>
+                            <p>Your choice of roast meat with crunchy salad and house sauce.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Shawarma plate with rice and salad"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Shawarma</span>
+                            <div class="menu-card-title">
+                                <h3>Shawarma Plate</h3><strong>â‚¹379</strong>
+                            </div>
+                            <p>Carved shawarma served with fragrant rice, salad and warm pita.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Balanced shawarma meal box with fresh greens"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Shawarma</span>
+                            <div class="menu-card-title">
+                                <h3>Shawarma Box</h3><strong>â‚¹329</strong>
+                            </div>
+                            <p>A hearty, easy-to-love box of carved meat, rice and house sauce.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="menu-category" id="grill" aria-labelledby="grill-title">
+                <header class="menu-section-heading"><span class="menu-section-eyebrow">Straight from the
+                        charcoal</span>
+                    <h2 id="grill-title">Grill</h2>
+                    <p>Smoky edges, tender centres and generous Middle Eastern seasoning.</p>
+                </header>
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Char-grilled chicken tikka"><span class="menu-badge">Chefâ€™s Pick</span></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Grill</span>
+                            <div class="menu-card-title">
+                                <h3>Chicken Tikka</h3><strong>â‚¹329</strong>
+                            </div>
+                            <p>Yoghurt-marinated chicken, flame-grilled and finished with herbs.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Golden roasted grilled chicken"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Grill</span>
+                            <div class="menu-card-title">
+                                <h3>Grilled Chicken</h3><strong>â‚¹399</strong>
+                            </div>
+                            <p>Juicy, flame-grilled chicken rubbed with our aromatic house spices.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Lamb kebab cooked over an open flame"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Grill</span>
+                            <div class="menu-card-title">
+                                <h3>Lamb Kebab</h3><strong>â‚¹429</strong>
+                            </div>
+                            <p>Hand-shaped lamb kebabs, charred outside and beautifully tender.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Selection of mixed grilled meats"><span class="menu-badge">Popular</span></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Grill</span>
+                            <div class="menu-card-title">
+                                <h3>Mixed Grill</h3><strong>â‚¹549</strong>
+                            </div>
+                            <p>A little of everything from the grill with rice, salad, toppings and dips.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Smoky grilled chicken wings"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Grill</span>
+                            <div class="menu-card-title">
+                                <h3>Grilled Wings</h3><strong>â‚¹299</strong>
+                            </div>
+                            <p>Smoky, sticky wings seasoned with our bold signature spice.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="menu-category" id="platters" aria-labelledby="platters-title">
+                <header class="menu-section-heading"><span class="menu-section-eyebrow">Made for sharing</span>
+                    <h2 id="platters-title">Platters</h2>
+                    <p>Gather around a generous table of grilled favourites and fresh sides.</p>
+                </header>
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Mixed grill platter with rice and salad"><span class="menu-badge">Popular</span>
+                        </div>
+                        <div class="menu-card-body"><span class="menu-card-category">Platters</span>
+                            <div class="menu-card-title">
+                                <h3>Mixed Grill Platter</h3><strong>â‚¹649</strong>
+                            </div>
+                            <p>Smoky kebab, full grilled chicken, fragrant rice, salad and dips.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Shawarma platter with greens and rice"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Platters</span>
+                            <div class="menu-card-title">
+                                <h3>Shawarma Platter</h3><strong>â‚¹499</strong>
+                            </div>
+                            <p>Carved shawarma with warm bread, rice, pickles and garlic sauce.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Family feast of grilled Middle Eastern dishes"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Platters</span>
+                            <div class="menu-card-title">
+                                <h3>Family Platter</h3><strong>â‚¹1,499</strong>
+                            </div>
+                            <p>A table-ready feast with mixed grill, shawarma and sides to share.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Arabic platter with grilled meats and traditional sides"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Platters</span>
+                            <div class="menu-card-title">
+                                <h3>Arabic Platter</h3><strong>â‚¹579</strong>
+                            </div>
+                            <p>A comforting spread of spiced rice, grilled meat, hummus and pita.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="menu-category menu-compact" id="fries-loaded-sides" aria-labelledby="sides-title">
+                <header class="menu-section-heading"><span class="menu-section-eyebrow">The perfect sidekick</span>
+                    <h2 id="sides-title">Fries &amp; Loaded Sides</h2>
+                    <p>Golden, creamy, garlicky â€” made for dipping, sharing and stealing.</p>
+                </header>
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Crispy golden classic fries"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Sides</span>
+                            <div class="menu-card-title">
+                                <h3>Classic Fries</h3><strong>â‚¹129</strong>
+                            </div>
+                            <p>So Hot, more crispy fries with a light sprinkle of seasoning.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1518013431117-eb1465fa5752?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Loaded fries topped with shawarma and sauce"><span
+                                class="menu-badge">Popular</span></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Sides</span>
+                            <div class="menu-card-title">
+                                <h3>Shawarma Fries</h3><strong>â‚¹229</strong>
+                            </div>
+                            <p>Crisp fries, carved shawarma and a generous garlic drizzle.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Golden fries with melted cheese"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Sides</span>
+                            <div class="menu-card-title">
+                                <h3>Cheese Fries</h3><strong>â‚¹179</strong>
+                            </div>
+                            <p>Golden fries finished with a warm, velvety cheese sauce.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Fries seasoned with garlic and herbs"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Sides</span>
+                            <div class="menu-card-title">
+                                <h3>Garlic Fries</h3><strong>â‚¹159</strong>
+                            </div>
+                            <p>Crisp fries tossed with fragrant garlic and fresh herbs.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1577906096429-f73c2c312435?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Smooth hummus topped with olive oil and herbs"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Sides</span>
+                            <div class="menu-card-title">
+                                <h3>Hummus</h3><strong>â‚¹149</strong>
+                            </div>
+                            <p>Silky chickpea hummus with olive oil and more warm pita bread.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Creamy garlic sauce served with herbs"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Sides</span>
+                            <div class="menu-card-title">
+                                <h3>Garlic Sauce</h3><strong>â‚¹49</strong>
+                            </div>
+                            <p>Our airy, punchy house toum â€” an essential dipping companion.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="menu-category menu-light" id="drinks-desserts" aria-labelledby="drinks-title">
+                <header class="menu-section-heading"><span class="menu-section-eyebrow">A refreshing finish</span>
+                    <h2 id="drinks-title">Drinks &amp; Desserts</h2>
+                    <p>Cool down with something bright, or finish with a little sweetness.</p>
+                </header>
+                <div class="menu-grid">
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img src="images/c9.jpg"
+                                alt="Fresh lemon mint drink with ice and mint leaves"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Drinks</span>
+                            <div class="menu-card-title">
+                                <h3>Fresh Lemon Mint</h3><strong>â‚¹149</strong>
+                            </div>
+                            <p>Freshly squeezed citrus, garden mint and plenty of ice.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Traditional Arabic tea served in a glass"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Drinks</span>
+                            <div class="menu-card-title">
+                                <h3>Arabic Tea</h3><strong>â‚¹79</strong>
+                            </div>
+                            <p>Fragrant, gently spiced tea served warm after your meal.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Chilled soft drink with ice"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Drinks</span>
+                            <div class="menu-card-title">
+                                <h3>Soft Drinks</h3><strong>â‚¹69</strong>
+                            </div>
+                            <p>Chilled ice favourites, served cold and ready to refresh.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Sweet baklava pastry with golden layers"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Desserts</span>
+                            <div class="menu-card-title">
+                                <h3>Baklava</h3><strong>â‚¹179</strong>
+                            </div>
+                            <p>Delicate layers of flaky pastry, nuts and a touch of syrup.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img
+                                src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                                alt="Warm kunafa with golden shredded pastry"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Desserts</span>
+                            <div class="menu-card-title">
+                                <h3>Kunafa</h3><strong>â‚¹229</strong>
+                            </div>
+                            <p>Warm, crisp pastry with a soft centre and fragrant syrup.</p>
+                        </div>
+                    </article>
+                    <article class="menu-card">
+                        <div class="menu-card-image"><img src="images/c10.jpg" Creamy Arabic ice cream topped with
+                                pistachios"></div>
+                        <div class="menu-card-body"><span class="menu-card-category">Desserts</span>
+                            <div class="menu-card-title">
+                                <h3>Arabic Ice Cream</h3><strong>â‚¹199</strong>
+                            </div>
+                            <p>Creamy, delicately scented scoops with crushed pistachio.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <section class="menu-catering-cta">
+            <div class="container menu-cta-inner">
+                <div><span class="menu-section-eyebrow">Good food brings us together</span>
+                    <h2>Planning A Gathering?</h2>
+                    <p>Make your next celebration easier with Shawarmia catering.</p>
+                </div>
+                <div class="menu-cta-actions"><a class="menu-cta-primary" href="catering.html">Explore Catering <i
+                            class="fa-solid fa-arrow-right" aria-hidden="true"></i></a><a class="menu-cta-secondary"
+                        href="contact.html">Book A Table</a></div>
+            </div>
+        </section>
+    </main>
+    <!-- =========================================================
+     FOOTER
+     ========================================================= -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo-light.png" alt="Shawarmia Grill">
+                    </a>
+
+                    <p class="footer-description">
+                        Bold shawarma, flame-grilled favorites and authentic
+                        Middle Eastern flavors, freshly prepared for every craving.
+                    </p>
+
+                    <div class="footer-socials">
+
+                        <a href="#" class="footer-social" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="X">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+
+                    <h3 class="footer-title">Quick Links</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html">Our Menu</a>
+                        </li>
+
+                        <li>
+                            <a href="catering.html">Catering Orders</a>
+                        </li>
+
+                        <li>
+                            <a href="locations.html">Locations</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Menu -->
+                <div class="footer-column">
+
+                    <h3 class="footer-title">Explore Menu</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="menu.html#shawarma">Shawarma</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#grill">Grill</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#platters">Platters</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#loaded-sides">
+                                Fries &amp; Loaded Sides
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#drinks-desserts">
+                                Drinks &amp; Desserts
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Contact -->
+                <div class="footer-column footer-contact">
+
+                    <h3 class="footer-title">Get In Touch</h3>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <p>
+                            24 Middle Street,<br>
+                            Food District, India
+                        </p>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <a href="mailto:hello@shawarmiagrill.com">
+                            hello@shawarmiagrill.com
+                        </a>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        <p>
+                            Mon â€“ Sun<br>
+                            11:00 AM â€“ 11:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+
+            <div class="footer-bottom">
+
+                <p>
+                    Â© 2026 Shawarmia Grill. All Rights Reserved.
+                </p>
+
+                <div class="footer-bottom-links">
+
+                    <a href="#">Privacy Policy</a>
+
+                    <span></span>
+
+                    <a href="#">Terms &amp; Conditions</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Scroll To Top -->
+    <button class="scroll-top-btn" id="scrollTopBtn" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

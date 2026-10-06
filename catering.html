@@ -1,0 +1,1536 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shawarmia Grill</title>
+
+    <meta name="description"
+        content="Shawarmia Grill serves flavorful Middle Eastern shawarma, flame-grilled dishes, platters, loaded sides, drinks and desserts.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Manrope:wght@400;500;550&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <script src="js/theme-init.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- =========================
+     HEADER
+     ========================= -->
+    <header class="site-header" id="siteHeader">
+        <div class="container header-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="site-logo" aria-label="Shawarmia Grill Home">
+                <img src="images/logo.png" data-theme-light="images/logo.png" data-theme-dark="images/logo-light.png"
+                    alt="Shawarmia Grill">
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav class="main-navigation" id="mainNavigation">
+                <ul class="nav-menu">
+
+                    <!-- Home Dropdown -->
+                    <li class="nav-item has-dropdown">
+                        <a href="index.html" class="nav-link">
+                            Home
+                            <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="index.html" class="dropdown-link">
+                                    Home 1
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html" class="dropdown-link">
+                                    Home 2
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">
+                            About
+                        </a>
+                    </li>
+
+
+                    <!-- Menu -->
+                    <li class="nav-item">
+                        <a href="menu.html" class="nav-link">
+                            Menu
+                        </a>
+
+                    </li>
+
+
+                    <!-- Catering -->
+                    <li class="nav-item active">
+                        <a href="catering.html" class="nav-link">
+                            Catering Orders
+                        </a>
+                    </li>
+
+
+                    <!-- Locations -->
+                    <li class="nav-item">
+                        <a href="locations.html" class="nav-link">
+                            Locations
+                        </a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+
+            <!-- Desktop Right Actions -->
+            <div class="header-actions">
+
+                <!-- Dark Mode -->
+                <button type="button" class="header-action-btn theme-toggle" id="themeToggle"
+                    aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+
+                <!-- RTL -->
+                <button type="button" class="header-action-btn rtl-toggle" id="rtlToggle" aria-label="Toggle RTL mode"
+                    title="Toggle RTL mode">
+                    <i class="fa-solid fa-right-left"></i>
+                </button>
+
+                <!-- Login -->
+                <a href="login.html" class="login-btn">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Login</span>
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Menu Toggle -->
+            <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open navigation menu"
+                aria-expanded="false">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-navigation" id="mobileNavigation">
+
+            <nav class="mobile-nav-inner">
+
+                <ul class="mobile-nav-menu">
+
+                    <!-- Home -->
+                    <li class="mobile-nav-item mobile-has-dropdown">
+
+                        <button type="button" class="mobile-nav-link mobile-dropdown-toggle">
+
+                            <span>Home</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+
+                        </button>
+
+                        <ul class="mobile-dropdown-menu">
+
+                            <li>
+                                <a href="index.html" class="mobile-dropdown-link active">
+                                    Home 1
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html" class="mobile-dropdown-link">
+                                    Home 2
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="mobile-nav-item">
+                        <a href="about.html" class="mobile-nav-link">
+                            About
+                        </a>
+                    </li>
+
+
+                    <!-- Menu -->
+                    <li class="mobile-nav-item">
+
+                        <a href="menu.html" class="mobile-nav-link">
+                            Menu
+                        </a>
+
+                    </li>
+
+
+                    <!-- Catering -->
+                    <li class="mobile-nav-item">
+                        <a href="catering.html" class="mobile-nav-link">
+                            Catering Orders
+                        </a>
+                    </li>
+
+
+                    <!-- Locations -->
+                    <li class="mobile-nav-item">
+                        <a href="locations.html" class="mobile-nav-link">
+                            Locations
+                        </a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="mobile-nav-item">
+                        <a href="contact.html" class="mobile-nav-link">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <!-- Mobile Actions -->
+                <div class="mobile-header-actions">
+
+                    <button type="button" class="mobile-action-btn theme-toggle" id="mobileThemeToggle">
+
+                        <i class="fa-solid fa-moon"></i>
+                        <span>Dark Mode</span>
+
+                    </button>
+
+
+                    <button type="button" class="mobile-action-btn rtl-toggle" id="mobileRtlToggle">
+
+                        <i class="fa-solid fa-right-left"></i>
+                        <span>RTL Mode</span>
+
+                    </button>
+
+                    <a href="login.html" class="mobile-login-btn">
+
+                        <i class="fa-regular fa-user"></i>
+                        <span>Login</span>
+
+                    </a>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <section class="inner-page-hero catering-page-hero">
+
+        <div class="inner-page-hero-overlay"></div>
+
+        <div class="container">
+            <div class="inner-page-hero-content">
+
+                <span class="inner-page-hero-eyebrow">
+                    <i class="fa-solid fa-fire-flame-curved"></i>
+                    Shawarmia Catering
+                </span>
+
+                <h1>
+                    Make Your Event <span>Taste Better. </span>
+                </h1>
+
+                <p>
+                    From office gatherings and birthdays to weddings and private celebrations, bring the bold flavors of
+                    Shawarmia Grill to your event with freshly prepared catering options.
+                </p>
+
+                <div class="inner-page-hero-breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span>Catering Orders</span>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="catering-occasions">
+
+        <div class="container">
+
+            <div class="catering-occasions-header">
+
+                <span class="catering-occasions-eyebrow">
+                    <i class="fa-solid fa-utensils"></i>
+                    Catering For Every Occasion
+                </span>
+
+                <h2>
+                    One Menu.
+                    <span>Every Celebration.</span>
+                </h2>
+
+                <p>
+                    Whether you're planning a corporate gathering, family
+                    celebration or special event, we make serving great food
+                    simple and memorable.
+                </p>
+
+            </div>
+
+
+            <div class="catering-occasions-grid">
+
+                <!-- Corporate -->
+                <article class="catering-occasion-card">
+
+                    <div class="catering-occasion-image">
+                        <img src="images/c1.jpg" alt="Corporate catering">
+                    </div>
+
+                    <div class="catering-occasion-content">
+
+                        <div class="catering-occasion-icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+
+                        <span>For Your Team</span>
+
+                        <h3>Corporate Events</h3>
+
+                        <p>
+                            Easy-to-serve meals for office lunches, meetings,
+                            team celebrations and business gatherings.
+                        </p>
+
+                        <a href="#catering-request">
+                            Plan Your Catering
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Birthday -->
+                <article class="catering-occasion-card">
+
+                    <div class="catering-occasion-image">
+                        <img src="images/c2.jpg" alt="Birthday catering">
+                    </div>
+
+                    <div class="catering-occasion-content">
+
+                        <div class="catering-occasion-icon">
+                            <i class="fa-solid fa-cake-candles"></i>
+                        </div>
+
+                        <span>Celebrate Together</span>
+
+                        <h3>Birthdays</h3>
+
+                        <p>
+                            Bring everyone together with generous platters,
+                            wraps and loaded sides made for sharing.
+                        </p>
+
+                        <a href="#catering-request">
+                            Plan Your Catering
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Weddings -->
+                <article class="catering-occasion-card">
+
+                    <div class="catering-occasion-image">
+                        <img src="images/c3.jpg" alt="Wedding catering">
+                    </div>
+
+                    <div class="catering-occasion-content">
+
+                        <div class="catering-occasion-icon">
+                            <i class="fa-solid fa-champagne-glasses"></i>
+                        </div>
+
+                        <span>Special Moments</span>
+
+                        <h3>Wedding Functions</h3>
+
+                        <p>
+                            Make your special day delicious with crowd-friendly
+                            Middle Eastern favorites prepared fresh for your guests.
+                        </p>
+
+                        <a href="#catering-request">
+                            Plan Your Catering
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Private Events -->
+                <article class="catering-occasion-card">
+
+                    <div class="catering-occasion-image">
+                        <img src="images/c4.jpg" alt="Private party catering">
+                    </div>
+
+                    <div class="catering-occasion-content">
+
+                        <div class="catering-occasion-icon">
+                            <i class="fa-solid fa-people-group"></i>
+                        </div>
+
+                        <span>Gather &amp; Enjoy</span>
+
+                        <h3>Parties &amp; Gatherings</h3>
+
+                        <p>
+                            From family get-togethers to private celebrations,
+                            make feeding your guests simple and stress-free.
+                        </p>
+
+                        <a href="#catering-request">
+                            Plan Your Catering
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="catering-packages">
+
+        <div class="container">
+
+            <div class="catering-packages-header">
+
+                <span class="catering-packages-eyebrow">
+                    <i class="fa-solid fa-box-open"></i>
+                    Catering Packages
+                </span>
+
+                <h2>
+                    Choose The Package
+                    <span>That Fits Your Event.</span>
+                </h2>
+
+                <p>
+                    Choose a package based on your gathering size and let us
+                    take care of the food. Custom requests can be discussed
+                    when you send your catering enquiry.
+                </p>
+
+            </div>
+
+
+            <div class="catering-packages-grid">
+
+                <!-- Package 01 -->
+                <article class="catering-package-card">
+
+                    <div class="catering-package-top">
+                        <span class="catering-package-tag">
+                            Small Gatherings
+                        </span>
+
+                        <div class="catering-package-icon">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+                    </div>
+
+                    <h3>Gathering Pack</h3>
+
+                    <p class="catering-package-description">
+                        A simple spread for smaller family gatherings,
+                        office lunches and casual celebrations.
+                    </p>
+
+                    <div class="catering-package-serves">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Serves 10 â€“ 15 Guests</span>
+                    </div>
+
+                    <div class="catering-package-divider"></div>
+
+                    <ul class="catering-package-list">
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Shawarma wraps
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Grilled sides
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Fries & dips
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Drinks
+                        </li>
+                    </ul>
+
+                    <a href="#catering-request" class="catering-package-btn">
+                        Request This Package
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- Package 02 -->
+                <article class="catering-package-card catering-package-featured">
+
+                    <div class="catering-package-badge">
+                        Most Popular
+                    </div>
+
+                    <div class="catering-package-top">
+                        <span class="catering-package-tag">
+                            Medium Events
+                        </span>
+
+                        <div class="catering-package-icon">
+                            <i class="fa-solid fa-fire-flame-curved"></i>
+                        </div>
+                    </div>
+
+                    <h3>Feast Pack</h3>
+
+                    <p class="catering-package-description">
+                        A generous selection of shawarma, grill favorites
+                        and sides for larger celebrations.
+                    </p>
+
+                    <div class="catering-package-serves">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Serves 20 â€“ 30 Guests</span>
+                    </div>
+
+                    <div class="catering-package-divider"></div>
+
+                    <ul class="catering-package-list">
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Shawarma selection
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Mixed grill options
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Platters & loaded sides
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Dips & drinks
+                        </li>
+                    </ul>
+
+                    <a href="#catering-request" class="catering-package-btn">
+                        Request This Package
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- Package 03 -->
+                <article class="catering-package-card">
+
+                    <div class="catering-package-top">
+                        <span class="catering-package-tag">
+                            Large Events
+                        </span>
+
+                        <div class="catering-package-icon">
+                            <i class="fa-solid fa-people-group"></i>
+                        </div>
+                    </div>
+
+                    <h3>Grand Feast</h3>
+
+                    <p class="catering-package-description">
+                        A complete catering spread designed for weddings,
+                        corporate events and large celebrations.
+                    </p>
+
+                    <div class="catering-package-serves">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Serves 40+ Guests</span>
+                    </div>
+
+                    <div class="catering-package-divider"></div>
+
+                    <ul class="catering-package-list">
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Full shawarma selection
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Mixed grill platters
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Sides, dips & desserts
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            Drinks & serving setup
+                        </li>
+                    </ul>
+
+                    <a href="#catering-request" class="catering-package-btn">
+                        Request This Package
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+            </div>
+
+
+            <div class="catering-packages-note">
+
+                <i class="fa-solid fa-circle-info"></i>
+
+                <p>
+                    Need something different? We can discuss custom menus,
+                    guest counts and special dietary requirements with you.
+                </p>
+
+                <a href="#catering-request">
+                    Ask About Custom Catering
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="catering-process">
+
+        <div class="container">
+
+            <div class="catering-process-header">
+
+                <span class="catering-process-eyebrow">
+                    <i class="fa-solid fa-route"></i>
+                    Simple Catering Process
+                </span>
+
+                <h2>
+                    From Enquiry
+                    <span>To Your Table.</span>
+                </h2>
+
+                <p>
+                    Tell us about your event, choose what suits your guests,
+                    and we'll help you plan the rest.
+                </p>
+
+            </div>
+
+
+            <div class="catering-process-list">
+
+                <!-- Step 01 -->
+                <div class="catering-process-item">
+
+                    <div class="catering-process-icon">
+                        <i class="fa-solid fa-clipboard-list"></i>
+                    </div>
+
+                    <div class="catering-process-content">
+
+                        <span>Step 01</span>
+
+                        <h3>Send Your Enquiry</h3>
+
+                        <p>
+                            Share your event date, location, guest count
+                            and the type of gathering you're planning.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Step 02 -->
+                <div class="catering-process-item">
+
+                    <div class="catering-process-icon">
+                        <i class="fa-solid fa-list-check"></i>
+                    </div>
+
+                    <div class="catering-process-content">
+
+                        <span>Step 02</span>
+
+                        <h3>Choose Package</h3>
+
+                        <p>
+                            Pick a catering package that fits your event,
+                            or tell us if you need a custom menu.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Step 03 -->
+                <div class="catering-process-item">
+
+                    <div class="catering-process-icon">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+
+                    <div class="catering-process-content">
+
+                        <span>Step 03</span>
+
+                        <h3>Confirm Details</h3>
+
+                        <p>
+                            Our team will discuss your requirements and
+                            confirm the quantity and event details.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Step 04 -->
+                <div class="catering-process-item">
+
+                    <div class="catering-process-icon">
+                        <i class="fa-solid fa-bowl-food"></i>
+                    </div>
+
+                    <div class="catering-process-content">
+
+                        <span>Step 04</span>
+
+                        <h3>Enjoy Your Feast</h3>
+
+                        <p>
+                            We prepare your order fresh and get everything
+                            ready for your special gathering.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="catering-process-action">
+
+                <a href="#catering-request" class="catering-process-btn">
+                    Start Your Catering Enquiry
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="catering-request">
+
+        <div class="container">
+
+            <div class="catering-request-wrapper">
+
+                <!-- Left Content -->
+
+                <div class="catering-request-info">
+
+                    <span class="catering-request-eyebrow">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Catering Enquiry
+                    </span>
+
+                    <h2>
+                        Let's Plan Your
+                        <span>Perfect Feast.</span>
+                    </h2>
+
+                    <p>
+                        Tell us a little about your event and we'll help you
+                        choose the right catering option for your guests.
+                    </p>
+
+
+                    <div class="catering-request-points">
+
+                        <div class="catering-request-point">
+                            <div class="catering-request-point-icon">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+
+                            <div>
+                                <h4>Share Your Event Date</h4>
+                                <p>
+                                    Let us know when your event is happening.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="catering-request-point">
+                            <div class="catering-request-point-icon">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+
+                            <div>
+                                <h4>Tell Us Your Guest Count</h4>
+                                <p>
+                                    We'll help you plan the right quantity.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="catering-request-point">
+                            <div class="catering-request-point-icon">
+                                <i class="fa-solid fa-message"></i>
+                            </div>
+
+                            <div>
+                                <h4>Share Your Requirements</h4>
+                                <p>
+                                    Include dietary needs or special requests.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Form -->
+
+                <div class="catering-request-form-wrapper">
+
+                    <form class="catering-request-form" id="cateringForm">
+
+                        <div class="catering-form-row">
+
+                            <div class="catering-form-group">
+
+                                <label for="cateringName">
+                                    Full Name
+                                </label>
+
+                                <input type="text" id="cateringName" name="name" placeholder="Your name" required>
+
+                            </div>
+
+
+                            <div class="catering-form-group">
+
+                                <label for="cateringPhone">
+                                    Phone Number
+                                </label>
+
+                                <input type="tel" id="cateringPhone" name="phone" placeholder="Your phone number"
+                                    required>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="catering-form-row">
+
+                            <div class="catering-form-group">
+
+                                <label for="eventType">
+                                    Event Type
+                                </label>
+
+                                <select id="eventType" name="eventType" required>
+
+                                    <option value="" selected disabled>
+                                        Select event type
+                                    </option>
+
+                                    <option value="corporate">
+                                        Corporate Event
+                                    </option>
+
+                                    <option value="birthday">
+                                        Birthday
+                                    </option>
+
+                                    <option value="wedding">
+                                        Wedding / Engagement
+                                    </option>
+
+                                    <option value="private-party">
+                                        Private Party
+                                    </option>
+
+                                    <option value="other">
+                                        Other
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="catering-form-group">
+
+                                <label for="guestCount">
+                                    Number of Guests
+                                </label>
+
+                                <select id="guestCount" name="guestCount" required>
+
+                                    <option value="" selected disabled>
+                                        Select guest count
+                                    </option>
+
+                                    <option value="10-15">
+                                        10 â€“ 15 Guests
+                                    </option>
+
+                                    <option value="20-30">
+                                        20 â€“ 30 Guests
+                                    </option>
+
+                                    <option value="30-40">
+                                        30 â€“ 40 Guests
+                                    </option>
+
+                                    <option value="40-plus">
+                                        40+ Guests
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="catering-form-row">
+
+                            <div class="catering-form-group">
+
+                                <label for="eventDate">
+                                    Event Date
+                                </label>
+
+                                <input type="date" id="eventDate" name="eventDate" required>
+
+                            </div>
+
+
+                            <div class="catering-form-group">
+
+                                <label for="cateringPackage">
+                                    Preferred Package
+                                </label>
+
+                                <select id="cateringPackage" name="package">
+
+                                    <option value="" selected disabled>
+                                        Select a package
+                                    </option>
+
+                                    <option value="gathering">
+                                        Gathering Pack
+                                    </option>
+
+                                    <option value="feast">
+                                        Feast Pack
+                                    </option>
+
+                                    <option value="grand-feast">
+                                        Grand Feast
+                                    </option>
+
+                                    <option value="custom">
+                                        Custom Catering
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="catering-form-group">
+
+                            <label for="eventLocation">
+                                Event Location
+                            </label>
+
+                            <input type="text" id="eventLocation" name="location" placeholder="City / Event venue"
+                                required>
+
+                        </div>
+
+
+                        <div class="catering-form-group">
+
+                            <label for="cateringMessage">
+                                Additional Requirements
+                            </label>
+
+                            <textarea id="cateringMessage" name="message" rows="5"
+                                placeholder="Tell us about any special requests, dietary requirements or other details..."></textarea>
+
+                        </div>
+
+
+                        <button type="submit" class="catering-request-submit">
+
+                            <span>Send Catering Enquiry</span>
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </button>
+
+
+                        <p class="catering-form-note">
+                            <i class="fa-solid fa-circle-info"></i>
+                            We'll contact you to discuss availability and
+                            final catering details.
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="catering-details">
+
+        <div class="container">
+
+            <div class="catering-details-header">
+
+                <span class="catering-details-eyebrow">
+                    <i class="fa-solid fa-sliders"></i>
+                    Plan Your Catering
+                </span>
+
+                <h2>
+                    Catering That Fits
+                    <span>Your Event.</span>
+                </h2>
+
+                <p>
+                    Every event is different. Let us know what you need and
+                    we'll help you put together a catering plan that works
+                    for your guests.
+                </p>
+
+            </div>
+
+
+            <div class="catering-details-grid">
+
+                <!-- Guest Count -->
+
+                <div class="catering-detail-card">
+
+                    <div class="catering-detail-icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+
+                    <div class="catering-detail-content">
+
+                        <h3>Guest Count</h3>
+
+                        <p>
+                            Tell us how many guests you're expecting so we can
+                            help you plan suitable quantities.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Menu -->
+
+                <div class="catering-detail-card">
+
+                    <div class="catering-detail-icon">
+                        <i class="fa-solid fa-bowl-food"></i>
+                    </div>
+
+                    <div class="catering-detail-content">
+
+                        <h3>Menu Choice</h3>
+
+                        <p>
+                            Choose from shawarma, grills, platters, sides,
+                            drinks and desserts based on your event.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Dietary -->
+
+                <div class="catering-detail-card">
+
+                    <div class="catering-detail-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+
+                    <div class="catering-detail-content">
+
+                        <h3>Dietary</h3>
+
+                        <p>
+                            Share any dietary requirements or food preferences
+                            with us while making your enquiry.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Location -->
+
+                <div class="catering-detail-card">
+
+                    <div class="catering-detail-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <div class="catering-detail-content">
+
+                        <h3>Location</h3>
+
+                        <p>
+                            Provide your event location so we can discuss
+                            catering arrangements for your venue.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Date -->
+
+                <div class="catering-detail-card">
+
+                    <div class="catering-detail-icon">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+
+                    <div class="catering-detail-content">
+
+                        <h3>Event Date</h3>
+
+                        <p>
+                            Share your preferred date early so our team can
+                            check availability for your event.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Custom -->
+
+                <div class="catering-detail-card">
+
+                    <div class="catering-detail-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+
+                    <div class="catering-detail-content">
+
+                        <h3>Requests</h3>
+
+                        <p>
+                            Have a special requirement? Add it to your enquiry
+                            and we'll discuss the options with you.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="catering-details-note">
+
+                <div class="catering-details-note-icon">
+                    <i class="fa-solid fa-circle-info"></i>
+                </div>
+
+                <div class="catering-details-note-content">
+
+                    <h4>Need a Custom Catering Plan?</h4>
+
+                    <p>
+                        No two events are exactly alike. Include your
+                        requirements in the enquiry form and our team can
+                        discuss a suitable arrangement with you.
+                    </p>
+
+                </div>
+
+                <a href="#catering-request">
+                    Send An Enquiry
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================
+     FINAL CATERING CTA
+========================================= -->
+
+    <section class="catering-final-cta">
+
+        <div class="catering-final-cta-overlay"></div>
+
+        <div class="container">
+
+            <div class="catering-final-cta-content">
+
+                <span class="catering-final-cta-eyebrow">
+                    <i class="fa-solid fa-fire"></i>
+                    Make Your Event Delicious
+                </span>
+
+                <h2>
+                    Bring The Grill
+                    <span>To Your Gathering.</span>
+                </h2>
+
+                <p>
+                    From intimate gatherings to big celebrations,
+                    let us bring freshly prepared shawarma, grills
+                    and generous platters to your table.
+                </p>
+
+                <div class="catering-final-cta-actions">
+
+                    <a href="#catering-request" class="catering-final-cta-primary">
+                        Request Catering
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="menu.html" class="catering-final-cta-secondary">
+                        Explore Our Menu
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     FOOTER
+     ========================================================= -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo-light.png" alt="Shawarmia Grill">
+                    </a>
+
+                    <p class="footer-description">
+                        Bold shawarma, flame-grilled favorites and authentic
+                        Middle Eastern flavors, freshly prepared for every craving.
+                    </p>
+
+                    <div class="footer-socials">
+
+                        <a href="#" class="footer-social" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="X">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+
+                    <h3 class="footer-title">Quick Links</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html">Our Menu</a>
+                        </li>
+
+                        <li>
+                            <a href="catering.html">Catering Orders</a>
+                        </li>
+
+                        <li>
+                            <a href="locations.html">Locations</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Menu -->
+                <div class="footer-column">
+
+                    <h3 class="footer-title">Explore Menu</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="menu.html#shawarma">Shawarma</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#grill">Grill</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#platters">Platters</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#loaded-sides">
+                                Fries &amp; Loaded Sides
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#drinks-desserts">
+                                Drinks &amp; Desserts
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Contact -->
+                <div class="footer-column footer-contact">
+
+                    <h3 class="footer-title">Get In Touch</h3>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <p>
+                            24 Middle Street,<br>
+                            Food District, India
+                        </p>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <a href="mailto:hello@shawarmiagrill.com">
+                            hello@shawarmiagrill.com
+                        </a>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        <p>
+                            Mon â€“ Sun<br>
+                            11:00 AM â€“ 11:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+
+            <div class="footer-bottom">
+
+                <p>
+                    Â© 2026 Shawarmia Grill. All Rights Reserved.
+                </p>
+
+                <div class="footer-bottom-links">
+
+                    <a href="#">Privacy Policy</a>
+
+                    <span></span>
+
+                    <a href="#">Terms &amp; Conditions</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Scroll To Top -->
+    <button class="scroll-top-btn" id="scrollTopBtn" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

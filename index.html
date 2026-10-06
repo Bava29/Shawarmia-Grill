@@ -1,0 +1,1456 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shawarmia Grill</title>
+
+    <meta name="description"
+        content="Shawarmia Grill serves flavorful Middle Eastern shawarma, flame-grilled dishes, platters, loaded sides, drinks and desserts.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Manrope:wght@400;500;550&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <script src="js/theme-init.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- =========================
+     HEADER
+     ========================= -->
+    <header class="site-header" id="siteHeader">
+        <div class="container header-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="site-logo" aria-label="Shawarmia Grill Home">
+                <img src="images/logo.png" data-theme-light="images/logo.png" data-theme-dark="images/logo-light.png"
+                    alt="Shawarmia Grill">
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav class="main-navigation" id="mainNavigation">
+                <ul class="nav-menu">
+
+                    <!-- Home Dropdown -->
+                    <li class="nav-item has-dropdown active">
+                        <a href="index.html" class="nav-link">
+                            Home
+                            <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="index.html" class="dropdown-link active">
+                                    Home 1
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html" class="dropdown-link">
+                                    Home 2
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">
+                            About
+                        </a>
+                    </li>
+
+
+                    <!-- Menu -->
+                    <li class="nav-item">
+                        <a href="menu.html" class="nav-link">
+                            Menu
+                        </a>
+
+                    </li>
+
+                    <!-- Catering -->
+                    <li class="nav-item">
+                        <a href="catering.html" class="nav-link">
+                            Catering Orders
+                        </a>
+                    </li>
+
+
+                    <!-- Locations -->
+                    <li class="nav-item">
+                        <a href="locations.html" class="nav-link">
+                            Locations
+                        </a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+
+            <!-- Desktop Right Actions -->
+            <div class="header-actions">
+
+                <!-- Dark Mode -->
+                <button type="button" class="header-action-btn theme-toggle" id="themeToggle"
+                    aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+
+                <!-- RTL -->
+                <button type="button" class="header-action-btn rtl-toggle" id="rtlToggle" aria-label="Toggle RTL mode"
+                    title="Toggle RTL mode">
+                    <i class="fa-solid fa-right-left"></i>
+                </button>
+
+                <!-- Login -->
+                <a href="login.html" class="login-btn">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Login</span>
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Menu Toggle -->
+            <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open navigation menu"
+                aria-expanded="false">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-navigation" id="mobileNavigation">
+
+            <nav class="mobile-nav-inner">
+
+                <ul class="mobile-nav-menu">
+
+                    <!-- Home -->
+                    <li class="mobile-nav-item mobile-has-dropdown">
+
+                        <button type="button" class="mobile-nav-link mobile-dropdown-toggle">
+
+                            <span>Home</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+
+                        </button>
+
+                        <ul class="mobile-dropdown-menu">
+
+                            <li>
+                                <a href="index.html" class="mobile-dropdown-link active">
+                                    Home 1
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html" class="mobile-dropdown-link">
+                                    Home 2
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="mobile-nav-item">
+                        <a href="about.html" class="mobile-nav-link">
+                            About
+                        </a>
+                    </li>
+
+
+                    <!-- Menu -->
+                    <li class="mobile-nav-item">
+
+                        <a href="menu.html" class="mobile-nav-link">
+                            Menu
+                        </a>
+
+                    </li>
+
+
+                    <!-- Catering -->
+                    <li class="mobile-nav-item">
+                        <a href="catering.html" class="mobile-nav-link">
+                            Catering Orders
+                        </a>
+                    </li>
+
+
+                    <!-- Locations -->
+                    <li class="mobile-nav-item">
+                        <a href="locations.html" class="mobile-nav-link">
+                            Locations
+                        </a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="mobile-nav-item">
+                        <a href="contact.html" class="mobile-nav-link">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <!-- Mobile Actions -->
+                <div class="mobile-header-actions">
+
+                    <button type="button" class="mobile-action-btn theme-toggle" id="mobileThemeToggle">
+
+                        <i class="fa-solid fa-moon"></i>
+                        <span>Dark Mode</span>
+
+                    </button>
+
+
+                    <button type="button" class="mobile-action-btn rtl-toggle" id="mobileRtlToggle">
+
+                        <i class="fa-solid fa-right-left"></i>
+                        <span>RTL Mode</span>
+
+                    </button>
+
+                    <a href="login.html" class="mobile-login-btn">
+
+                        <i class="fa-regular fa-user"></i>
+                        <span>Login</span>
+
+                    </a>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- =========================================================
+     HOME PAGE 1 HERO
+     ========================================================= -->
+    <section class="home-one-hero">
+
+        <!-- Background Overlay -->
+        <div class="home-one-hero-overlay"></div>
+
+        <div class="container">
+
+            <!-- Hero Content -->
+            <div class="home-one-hero-content">
+
+                <div class="home-one-eyebrow">
+                    <span class="home-one-eyebrow-line"></span>
+
+                    <i class="fa-solid fa-fire-flame-curved"></i>
+
+                    <span>Authentic Middle Eastern Grill</span>
+
+                    <span class="home-one-eyebrow-line"></span>
+                </div>
+
+
+                <h1>
+                    Bold Flavors.<br>
+                    <span>Fire-Grilled</span> Perfection.
+                </h1>
+
+
+                <div class="home-one-description">
+
+                    <p>
+                        Freshly prepared shawarma, flame-grilled favorites
+                        and rich Middle Eastern flavors, crafted with
+                        passion and served hot.
+                    </p>
+
+                </div>
+
+
+                <!-- Hero Mini Highlight -->
+                <div class="home-one-highlight">
+
+                    <i class="fa-solid fa-utensils"></i>
+
+                    <span>
+                        Freshly grilled. Richly seasoned. Always satisfying.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =====================================================
+         HERO BOTTOM
+         ===================================================== -->
+        <div class="home-one-hero-bottom">
+
+            <div class="container">
+
+                <div class="home-one-bottom-inner">
+
+
+                    <!-- CTA Buttons -->
+                    <div class="home-one-actions">
+
+                        <a href="menu.html" class="home-one-btn home-one-btn-primary">
+
+                            <span>Order Now</span>
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+
+                        <a href="menu.html" class="home-one-btn home-one-btn-outline">
+
+                            <i class="fa-solid fa-utensils"></i>
+
+                            <span>Explore Our Menu</span>
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- Stats -->
+                    <div class="home-one-stats">
+
+
+                        <!-- Stat 01 -->
+                        <div class="home-one-stat">
+
+                            <div class="home-one-stat-circle">
+
+                                <div class="home-one-stat-content">
+
+                                    <div class="home-one-stat-icon">
+                                        <i class="fa-solid fa-drumstick-bite"></i>
+                                    </div>
+
+                                    <strong>
+                                        40+<br>
+                                        Grill Favorites
+                                    </strong>
+
+                                    <span>
+                                        Freshly prepared
+                                        every day.
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Stat 02 -->
+                        <div class="home-one-stat">
+
+                            <div class="home-one-stat-circle">
+
+                                <div class="home-one-stat-content">
+
+                                    <div class="home-one-stat-icon">
+                                        <i class="fa-solid fa-leaf"></i>
+                                    </div>
+
+                                    <strong>
+                                        100%<br>
+                                        Fresh Taste
+                                    </strong>
+
+                                    <span>
+                                        Quality ingredients
+                                        in every bite.
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Stat 03 -->
+                        <div class="home-one-stat">
+
+                            <div class="home-one-stat-circle">
+
+                                <div class="home-one-stat-content">
+
+                                    <div class="home-one-stat-icon">
+                                        <i class="fa-solid fa-fire"></i>
+                                    </div>
+
+                                    <strong>
+                                        Hot &amp;<br>
+                                        Fresh
+                                    </strong>
+
+                                    <span>
+                                        Grilled fresh
+                                        for every order.
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="home-one-experience">
+        <div class="container">
+            <div class="home-one-experience-grid">
+
+                <div class="home-one-experience-images">
+
+                    <div class="home-one-experience-main-image">
+                        <img src="images/a1.jpg" alt="Freshly prepared shawarma at Shawarmia Grill">
+                    </div>
+
+                    <div class="home-one-experience-small-image">
+                        <img src="images/a2.jpg" alt="Middle Eastern grill food">
+                    </div>
+
+                    <div class="home-one-experience-badge">
+                        <span>Since</span>
+                        <strong>2018</strong>
+                        <small>Authentic Flavors</small>
+                    </div>
+
+                </div>
+
+                <div class="home-one-experience-content">
+
+                    <span class="home-one-experience-eyebrow">
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                        The Shawarmia Experience
+                    </span>
+
+                    <h2>
+                        More Than Just
+                        <span>A Shawarma.</span>
+                    </h2>
+
+                    <p class="home-one-experience-intro">
+                        At Shawarmia Grill, every plate is made to bring the
+                        warmth, richness and bold character of Middle Eastern
+                        street food to your table.
+                    </p>
+
+                    <div class="home-one-experience-points">
+
+                        <div class="home-one-experience-point">
+                            <div class="home-one-experience-icon">
+                                <i class="fa-solid fa-seedling"></i>
+                            </div>
+
+                            <div>
+                                <h3>Fresh Ingredients</h3>
+                                <p>
+                                    Carefully selected ingredients prepared
+                                    fresh for every order.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="home-one-experience-point">
+                            <div class="home-one-experience-icon">
+                                <i class="fa-solid fa-fire"></i>
+                            </div>
+
+                            <div>
+                                <h3>Real Flame Grill</h3>
+                                <p>
+                                    Authentic smoky flavor created over
+                                    high-quality open flame.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="home-one-experience-point">
+                            <div class="home-one-experience-icon">
+                                <i class="fa-solid fa-bowl-food"></i>
+                            </div>
+
+                            <div>
+                                <h3>Made With Passion</h3>
+                                <p>
+                                    Every dish is prepared with care,
+                                    generous flavor and attention to detail.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="about.html" class="home-one-experience-btn">
+                        <span>Discover Shawarmia</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="home-one-signature">
+        <div class="container">
+
+            <div class="home-one-signature-header">
+                <div>
+                    <span class="home-one-signature-eyebrow">
+                        <i class="fa-solid fa-utensils"></i>
+                        Our Signature Favorites
+                    </span>
+
+                    <h2>
+                        Made To Crave.
+                        <span>Made To Remember.</span>
+                    </h2>
+                </div>
+
+                <a href="menu.html" class="home-one-signature-view">
+                    <span>View Full Menu</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="home-one-signature-grid">
+
+                <!-- Card 01 -->
+                <article class="home-one-signature-card">
+                    <div class="home-one-signature-image">
+                        <img src="images/a3.jpg" alt="Classic Chicken Shawarma">
+
+                        <span class="home-one-signature-tag">
+                            Best Seller
+                        </span>
+
+                        <a href="menu.html#shawarma" class="home-one-signature-arrow"
+                            aria-label="View Classic Chicken Shawarma">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+
+                    <div class="home-one-signature-info">
+                        <div>
+                            <span class="home-one-signature-category">
+                                Shawarma
+                            </span>
+
+                            <h3>Chicken Shawarma</h3>
+                        </div>
+
+                        <strong>â‚¹249</strong>
+                    </div>
+                </article>
+
+
+                <!-- Card 02 -->
+                <article class="home-one-signature-card">
+                    <div class="home-one-signature-image">
+                        <img src="images/a4.jpg" alt="Smoky Chicken Grill">
+
+                        <span class="home-one-signature-tag">
+                            Chef's Pick
+                        </span>
+
+                        <a href="menu.html#grill" class="home-one-signature-arrow"
+                            aria-label="View Smoky Chicken Grill">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+
+                    <div class="home-one-signature-info">
+                        <div>
+                            <span class="home-one-signature-category">
+                                Grill
+                            </span>
+
+                            <h3>Smoky Chicken Grill</h3>
+                        </div>
+
+                        <strong>â‚¹329</strong>
+                    </div>
+                </article>
+
+
+                <!-- Card 03 -->
+                <article class="home-one-signature-card">
+                    <div class="home-one-signature-image">
+                        <img src="images/a5.jpg" alt="Shawarmia Mixed Platter">
+
+                        <span class="home-one-signature-tag">
+                            Crowd Favorite
+                        </span>
+
+                        <a href="menu.html#platters" class="home-one-signature-arrow"
+                            aria-label="View Shawarmia Mixed Platter">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+
+                    <div class="home-one-signature-info">
+                        <div>
+                            <span class="home-one-signature-category">
+                                Platters
+                            </span>
+
+                            <h3>Shawarmia Mixed Platter</h3>
+                        </div>
+
+                        <strong>â‚¹449</strong>
+                    </div>
+                </article>
+
+
+                <!-- Card 04 -->
+                <article class="home-one-signature-card">
+                    <div class="home-one-signature-image">
+                        <img src="images/a6.jpg" alt="Loaded Shawarma Fries">
+
+                        <span class="home-one-signature-tag">
+                            Must Try
+                        </span>
+
+                        <a href="menu.html#loaded-sides" class="home-one-signature-arrow"
+                            aria-label="View Loaded Shawarma Fries">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+
+                    <div class="home-one-signature-info">
+                        <div>
+                            <span class="home-one-signature-category">
+                                Loaded Sides
+                            </span>
+
+                            <h3>Shawarma Fries</h3>
+                        </div>
+
+                        <strong>â‚¹279</strong>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="home-one-signature-bottom">
+                <p>
+                    Bold spices. Fresh ingredients. Big Middle Eastern flavors.
+                </p>
+
+                <a href="menu.html" class="home-one-signature-bottom-link">
+                    Explore Everything We Serve
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="home-one-grill">
+        <div class="container">
+
+            <div class="home-one-grill-header">
+
+                <div class="home-one-grill-heading">
+                    <span class="home-one-grill-eyebrow">
+                        <i class="fa-solid fa-fire"></i>
+                        Straight From The Grill
+                    </span>
+
+                    <h2>
+                        The Fire Is
+                        <span>Part Of The Flavor.</span>
+                    </h2>
+                </div>
+
+                <p class="home-one-grill-description">
+                    Smoky, juicy and freshly grilled â€” our flame-cooked
+                    favorites bring the unmistakable taste of a real
+                    Middle Eastern grill straight to your table.
+                </p>
+
+            </div>
+
+
+            <div class="home-one-grill-showcase">
+
+                <!-- Main Grill -->
+                <div class="home-one-grill-main">
+
+                    <img src="images/a7.jpg" alt="Smoky chicken grill at Shawarmia Grill">
+
+                    <div class="home-one-grill-overlay"></div>
+
+                    <div class="home-one-grill-main-content">
+
+                        <span>Signature Grill</span>
+
+                        <h3>
+                            Smoky Chicken
+                            <br>
+                            Grill
+                        </h3>
+
+                        <p>
+                            Marinated with aromatic spices, grilled over
+                            open flame and served hot.
+                        </p>
+
+                        <a href="menu.html#grill" class="home-one-grill-link">
+                            <span>Explore Grill</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Side Items -->
+                <div class="home-one-grill-side">
+
+                    <a href="menu.html#shawarma" class="home-one-grill-small">
+
+                        <div class="home-one-grill-small-image">
+                            <img src="images/a8.jpg" alt="Fresh chicken shawarma">
+                        </div>
+
+                        <div class="home-one-grill-small-content">
+
+                            <span>Shawarma</span>
+
+                            <h3>
+                                Slow-Roasted
+                                Chicken
+                            </h3>
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </div>
+
+                    </a>
+
+
+                    <a href="menu.html#platters" class="home-one-grill-small">
+
+                        <div class="home-one-grill-small-image">
+                            <img src="images/a9.jpg" alt="Mixed grill platter">
+                        </div>
+
+                        <div class="home-one-grill-small-content">
+
+                            <span>Platters</span>
+
+                            <h3>
+                                Mixed Grill
+                                Feast
+                            </h3>
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </div>
+
+                    </a>
+
+
+                    <a href="menu.html#loaded-sides" class="home-one-grill-small">
+
+                        <div class="home-one-grill-small-image">
+                            <img src="images/a10.jpg" alt="Loaded shawarma fries">
+                        </div>
+
+                        <div class="home-one-grill-small-content">
+
+                            <span>Loaded Sides</span>
+
+                            <h3>
+                                Loaded Grill
+                                Fries
+                            </h3>
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="home-one-testimonials">
+        <div class="container">
+
+            <div class="home-one-testimonials-grid">
+
+                <!-- Left Content -->
+                <div class="home-one-testimonials-intro">
+
+                    <span class="home-one-testimonials-eyebrow">
+                        <i class="fa-solid fa-star"></i>
+                        Guest Favorites
+                    </span>
+
+                    <h2>
+                        Loved For The
+                        <span>Flavor.</span>
+                    </h2>
+
+                    <p>
+                        From a quick shawarma craving to a full grill feast,
+                        our guests come back for the flavors, freshness
+                        and experience.
+                    </p>
+
+                    <div class="home-one-rating">
+
+                        <div class="home-one-rating-score">
+                            4.9
+                        </div>
+
+                        <div class="home-one-rating-details">
+
+                            <div class="home-one-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <span>
+                                Based on 1,200+ guest reviews
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <a href="contact.html" class="home-one-testimonials-btn">
+
+                        <span>Visit Shawarmia</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+
+                <!-- Reviews -->
+                <div class="home-one-testimonial-list">
+
+                    <!-- Review 01 -->
+                    <article class="home-one-testimonial-card">
+
+                        <div class="home-one-testimonial-top">
+
+                            <div class="home-one-testimonial-quote">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+
+                            <div class="home-one-testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                        </div>
+
+                        <p>
+                            â€œThe shawarma was absolutely delicious. Fresh,
+                            juicy and packed with amazing Middle Eastern
+                            flavors. Definitely coming back again!â€
+                        </p>
+
+                        <div class="home-one-testimonial-author">
+
+                            <div class="home-one-testimonial-image">
+                                <img src="images/a11.jpg" alt="Shawarmia guest">
+                            </div>
+
+                            <div class="home-one-testimonial-info">
+                                <h3>Arjun K.</h3>
+                                <span>Shawarma Lover</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Review 02 -->
+                    <article class="home-one-testimonial-card">
+
+                        <div class="home-one-testimonial-top">
+
+                            <div class="home-one-testimonial-quote">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+
+                            <div class="home-one-testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                        </div>
+
+                        <p>
+                            â€œLoved the grilled chicken and the platter.
+                            Everything was hot, fresh and perfectly seasoned.
+                            The portion size was great too.â€
+                        </p>
+
+                        <div class="home-one-testimonial-author">
+
+                            <div class="home-one-testimonial-image">
+                                <img src="images/a12.jpg" alt="Shawarmia guest">
+                            </div>
+
+                            <div class="home-one-testimonial-info">
+                                <h3>Priya S.</h3>
+                                <span>Regular Guest</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Review 03 -->
+                    <article class="home-one-testimonial-card">
+
+                        <div class="home-one-testimonial-top">
+
+                            <div class="home-one-testimonial-quote">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+
+                            <div class="home-one-testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                        </div>
+
+                        <p>
+                            â€œOne of the best places for a quick grill meal.
+                            The smoky flavor and loaded fries were incredible.
+                            Highly recommended!â€
+                        </p>
+
+                        <div class="home-one-testimonial-author">
+
+                            <div class="home-one-testimonial-image">
+                                <img src="images/a13.jpg" alt="Shawarmia guest">
+                            </div>
+
+                            <div class="home-one-testimonial-info">
+                                <h3>Rahul M.</h3>
+                                <span>Foodie</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="home-one-difference">
+        <div class="container">
+
+            <div class="home-one-difference-header">
+                <span class="home-one-difference-eyebrow">
+                    The Shawarmia Difference
+                </span>
+
+                <h2>
+                    Simple Ingredients.
+                    <span>Big Flavor.</span>
+                </h2>
+
+                <p>
+                    We bring together authentic spices, fresh ingredients
+                    and real fire to create food that keeps you coming back.
+                </p>
+            </div>
+
+
+            <div class="home-one-difference-showcase">
+
+                <!-- Panel 01 -->
+                <a href="menu.html#shawarma" class="home-one-difference-panel">
+
+                    <img src="images/a14.jpg" alt="Authentic chicken shawarma">
+
+                    <div class="home-one-difference-overlay"></div>
+
+                    <div class="home-one-difference-content">
+                        <span>Authentic &amp; Slow Roasted</span>
+
+                        <h3>
+                            Shawarma
+                        </h3>
+
+                        <p>
+                            Tender meat, bold spices and slow-roasted
+                            goodness in every bite.
+                        </p>
+
+                        <div class="home-one-difference-link">
+                            <span>Discover Shawarma</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                </a>
+
+
+                <!-- Panel 02 -->
+                <a href="menu.html#grill" class="home-one-difference-panel">
+
+                    <img src="images/a15.jpg" alt="Flame grilled chicken">
+
+                    <div class="home-one-difference-overlay"></div>
+
+                    <div class="home-one-difference-content">
+                        <span>Smoky &amp; Flame Grilled</span>
+
+                        <h3>
+                            From The Fire
+                        </h3>
+
+                        <p>
+                            High heat, real flame and perfectly seasoned
+                            cuts grilled fresh to order.
+                        </p>
+
+                        <div class="home-one-difference-link">
+                            <span>Explore The Grill</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                </a>
+
+
+                <!-- Panel 03 -->
+                <a href="menu.html#platters" class="home-one-difference-panel">
+
+                    <img src="images/a16.jpg" alt="Middle Eastern mixed grill platter">
+
+                    <div class="home-one-difference-overlay"></div>
+
+                    <div class="home-one-difference-content">
+                        <span>Generous &amp; Satisfying</span>
+
+                        <h3>
+                            The Feast
+                        </h3>
+
+                        <p>
+                            A generous spread of grilled favorites made
+                            for sharing, celebrating and enjoying.
+                        </p>
+
+                        <div class="home-one-difference-link">
+                            <span>View Platters</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="home-one-gallery">
+        <div class="container">
+
+            <div class="home-one-gallery-header">
+
+                <div>
+                    <span class="home-one-gallery-eyebrow">
+                        A Taste Worth Seeing
+                    </span>
+
+                    <h2>
+                        Fresh From Our Kitchen,
+                        <span>Made For You.</span>
+                    </h2>
+                </div>
+
+                <p>
+                    From the first sizzle on the grill to the final bite,
+                    every Shawarmia plate is made to look as good as it tastes.
+                </p>
+
+            </div>
+
+
+            <div class="home-one-gallery-grid">
+
+                <div class="home-one-gallery-item home-one-gallery-large">
+                    <img src="images/a17.jpg" alt="Shawarmia signature shawarma">
+                </div>
+
+                <div class="home-one-gallery-item">
+                    <img src="images/a18.jpg" alt="Grilled chicken at Shawarmia Grill">
+                </div>
+
+                <div class="home-one-gallery-item">
+                    <img src="images/a19.jpg" alt="Middle Eastern food platter">
+                </div>
+
+                <div class="home-one-gallery-item home-one-gallery-wide">
+                    <img src="images/a20.jpg" alt="Loaded shawarma fries">
+                </div>
+
+            </div>
+
+
+            <div class="home-one-gallery-bottom">
+
+                <span>
+                    <i class="fa-solid fa-fire-flame-curved"></i>
+                    Grilled Fresh â€¢ Served Hot â€¢ Made With Passion
+                </span>
+
+                <a href="menu.html">
+                    Explore Our Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="home-one-final-cta">
+
+        <div class="home-one-final-cta-image">
+            <img src="images/Fresh Shawarma and Middle Eastern grill food.jpg"
+                alt="Shawarmia Grill signature Middle Eastern food">
+        </div>
+
+        <div class="home-one-final-cta-overlay"></div>
+
+        <div class="container">
+
+            <div class="home-one-final-cta-content">
+
+                <span class="home-one-final-cta-eyebrow">
+                    <i class="fa-solid fa-fire-flame-curved"></i>
+                    Your Table Is Waiting
+                </span>
+
+                <h2>
+                    Come Hungry.
+                    <span>Leave Happy.</span>
+                </h2>
+
+                <p>
+                    Gather your people, follow the aroma of the grill
+                    and enjoy bold Middle Eastern flavors made fresh
+                    at Shawarmia Grill.
+                </p>
+
+                <div class="home-one-final-cta-actions">
+
+                    <a href="menu.html" class="home-one-final-cta-btn home-one-final-cta-primary">
+                        <span>Explore Our Menu</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="locations.html" class="home-one-final-cta-btn home-one-final-cta-secondary">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Find A Location</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     FOOTER
+     ========================================================= -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo-light.png" alt="Shawarmia Grill">
+                    </a>
+
+                    <p class="footer-description">
+                        Bold shawarma, flame-grilled favorites and authentic
+                        Middle Eastern flavors, freshly prepared for every craving.
+                    </p>
+
+                    <div class="footer-socials">
+
+                        <a href="#" class="footer-social" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="X">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+
+                    <h3 class="footer-title">Quick Links</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html">Our Menu</a>
+                        </li>
+
+                        <li>
+                            <a href="catering.html">Catering Orders</a>
+                        </li>
+
+                        <li>
+                            <a href="locations.html">Locations</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Menu -->
+                <div class="footer-column">
+
+                    <h3 class="footer-title">Explore Menu</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="menu.html#shawarma">Shawarma</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#grill">Grill</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#platters">Platters</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#loaded-sides">
+                                Fries &amp; Loaded Sides
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#drinks-desserts">
+                                Drinks &amp; Desserts
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Contact -->
+                <div class="footer-column footer-contact">
+
+                    <h3 class="footer-title">Get In Touch</h3>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <p>
+                            24 Middle Street,<br>
+                            Food District, India
+                        </p>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <a href="mailto:hello@shawarmiagrill.com">
+                            hello@shawarmiagrill.com
+                        </a>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        <p>
+                            Mon â€“ Sun<br>
+                            11:00 AM â€“ 11:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+
+            <div class="footer-bottom">
+
+                <p>
+                    Â© 2026 Shawarmia Grill. All Rights Reserved.
+                </p>
+
+                <div class="footer-bottom-links">
+
+                    <a href="#">Privacy Policy</a>
+
+                    <span></span>
+
+                    <a href="#">Terms &amp; Conditions</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Scroll To Top -->
+    <button class="scroll-top-btn" id="scrollTopBtn" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1442 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shawarmia Grill</title>
+
+    <meta name="description"
+        content="Shawarmia Grill serves flavorful Middle Eastern shawarma, flame-grilled dishes, platters, loaded sides, drinks and desserts.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Manrope:wght@400;500;550&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <script src="js/theme-init.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- =========================
+     HEADER
+     ========================= -->
+    <header class="site-header" id="siteHeader">
+        <div class="container header-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="site-logo" aria-label="Shawarmia Grill Home">
+                <img src="images/logo.png" data-theme-light="images/logo.png" data-theme-dark="images/logo-light.png"
+                    alt="Shawarmia Grill">
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav class="main-navigation" id="mainNavigation">
+                <ul class="nav-menu">
+
+                    <!-- Home Dropdown -->
+                    <li class="nav-item has-dropdown">
+                        <a href="index.html" class="nav-link">
+                            Home
+                            <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="index.html" class="dropdown-link">
+                                    Home 1
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html" class="dropdown-link">
+                                    Home 2
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="nav-item active">
+                        <a href="about.html" class="nav-link">
+                            About
+                        </a>
+                    </li>
+
+
+                    <!-- Menu -->
+                    <li class="nav-item">
+                        <a href="menu.html" class="nav-link">
+                            Menu
+                        </a>
+
+                    </li>
+
+
+                    <!-- Catering -->
+                    <li class="nav-item">
+                        <a href="catering.html" class="nav-link">
+                            Catering Orders
+                        </a>
+                    </li>
+
+
+                    <!-- Locations -->
+                    <li class="nav-item">
+                        <a href="locations.html" class="nav-link">
+                            Locations
+                        </a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+
+            <!-- Desktop Right Actions -->
+            <div class="header-actions">
+
+                <!-- Dark Mode -->
+                <button type="button" class="header-action-btn theme-toggle" id="themeToggle"
+                    aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+
+                <!-- RTL -->
+                <button type="button" class="header-action-btn rtl-toggle" id="rtlToggle" aria-label="Toggle RTL mode"
+                    title="Toggle RTL mode">
+                    <i class="fa-solid fa-right-left"></i>
+                </button>
+
+                <!-- Login -->
+                <a href="login.html" class="login-btn">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Login</span>
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Menu Toggle -->
+            <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open navigation menu"
+                aria-expanded="false">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-navigation" id="mobileNavigation">
+
+            <nav class="mobile-nav-inner">
+
+                <ul class="mobile-nav-menu">
+
+                    <!-- Home -->
+                    <li class="mobile-nav-item mobile-has-dropdown">
+
+                        <button type="button" class="mobile-nav-link mobile-dropdown-toggle">
+
+                            <span>Home</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+
+                        </button>
+
+                        <ul class="mobile-dropdown-menu">
+
+                            <li>
+                                <a href="index.html" class="mobile-dropdown-link active">
+                                    Home 1
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html" class="mobile-dropdown-link">
+                                    Home 2
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="mobile-nav-item">
+                        <a href="about.html" class="mobile-nav-link">
+                            About
+                        </a>
+                    </li>
+
+
+                    <!-- Menu -->
+                    <li class="mobile-nav-item">
+
+                        <a href="menu.html" class="mobile-nav-link">
+                            Menu
+                        </a>
+
+                    </li>
+
+
+                    <!-- Catering -->
+                    <li class="mobile-nav-item">
+                        <a href="catering.html" class="mobile-nav-link">
+                            Catering Orders
+                        </a>
+                    </li>
+
+
+                    <!-- Locations -->
+                    <li class="mobile-nav-item">
+                        <a href="locations.html" class="mobile-nav-link">
+                            Locations
+                        </a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="mobile-nav-item">
+                        <a href="contact.html" class="mobile-nav-link">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <!-- Mobile Actions -->
+                <div class="mobile-header-actions">
+
+                    <button type="button" class="mobile-action-btn theme-toggle" id="mobileThemeToggle">
+
+                        <i class="fa-solid fa-moon"></i>
+                        <span>Dark Mode</span>
+
+                    </button>
+
+
+                    <button type="button" class="mobile-action-btn rtl-toggle" id="mobileRtlToggle">
+
+                        <i class="fa-solid fa-right-left"></i>
+                        <span>RTL Mode</span>
+
+                    </button>
+
+                    <a href="login.html" class="mobile-login-btn">
+
+                        <i class="fa-regular fa-user"></i>
+                        <span>Login</span>
+
+                    </a>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <section class="inner-page-hero about-page-hero">
+
+        <div class="inner-page-hero-overlay"></div>
+
+        <div class="container">
+            <div class="inner-page-hero-content">
+
+                <span class="inner-page-hero-eyebrow">
+                    <i class="fa-solid fa-fire-flame-curved"></i>
+                    ABOUT SHAWARMIA
+                </span>
+
+                <h1>
+                    Bold Flavours. <span> Honest Food. </span>
+                </h1>
+
+                <p>
+                    Shawarmia brings the rich flavours of Middle Eastern shawarma and grill favourites together with a
+                    fresh, welcoming approach to everyday dining.
+                </p>
+
+                <div class="inner-page-hero-breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span>About</span>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about-story">
+
+        <div class="container">
+
+            <div class="about-story-header">
+
+                <span class="about-story-eyebrow">
+                    <i class="fa-solid fa-book-open"></i>
+                    Our Story
+                </span>
+
+                <h2>
+                    From A Love Of
+                    <span>Great Food.</span>
+                </h2>
+
+                <p>
+                    Shawarmia was created around a simple idea â€” bring the
+                    warmth, generosity and bold flavours of Middle Eastern
+                    food into a place people would love to return to.
+                </p>
+
+            </div>
+
+
+            <div class="about-story-timeline">
+
+                <!-- Story 01 -->
+
+                <div class="about-story-item">
+
+                    <div class="about-story-marker">
+                        <span>01</span>
+                    </div>
+
+                    <div class="about-story-content">
+
+                        <span class="about-story-label">
+                            The Beginning
+                        </span>
+
+                        <h3>
+                            It Started With
+                            <span>Shawarma.</span>
+                        </h3>
+
+                        <p>
+                            Inspired by the flavours and traditions of
+                            Middle Eastern street food, our journey began
+                            with a passion for serving shawarma that feels
+                            fresh, generous and full of character.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Story 02 -->
+
+                <div class="about-story-item">
+
+                    <div class="about-story-marker">
+                        <span>02</span>
+                    </div>
+
+                    <div class="about-story-content">
+
+                        <span class="about-story-label">
+                            Growing The Menu
+                        </span>
+
+                        <h3>
+                            More Than
+                            <span>Just Shawarma.</span>
+                        </h3>
+
+                        <p>
+                            As our love for the cuisine grew, so did the
+                            menu. Grills, platters, loaded sides, refreshing
+                            drinks and desserts became part of the Shawarmia
+                            experience.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Story 03 -->
+
+                <div class="about-story-item">
+
+                    <div class="about-story-marker">
+                        <span>03</span>
+                    </div>
+
+                    <div class="about-story-content">
+
+                        <span class="about-story-label">
+                            Today
+                        </span>
+
+                        <h3>
+                            Made To Be
+                            <span>Shared.</span>
+                        </h3>
+
+                        <p>
+                            Today, Shawarmia is about bringing people
+                            together over food â€” whether it is a quick
+                            meal, a family gathering or a celebration
+                            shared around a generous table.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-story-bottom">
+
+                <div class="about-story-bottom-line"></div>
+
+                <p>
+                    Good food brings people closer.
+                </p>
+
+                <div class="about-story-bottom-line"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about-philosophy">
+
+        <div class="container">
+
+            <div class="about-philosophy-heading">
+
+                <span class="about-philosophy-eyebrow">
+                    <i class="fa-solid fa-heart"></i>
+                    What We Believe
+                </span>
+
+                <h2>
+                    Food With A Little More
+                    <span>Meaning.</span>
+                </h2>
+
+                <p>
+                    Great food is not only about what is on the plate.
+                    It is about freshness, generosity and the people
+                    you share it with.
+                </p>
+
+            </div>
+
+
+            <div class="about-philosophy-grid">
+
+                <!-- Freshness -->
+
+                <article class="about-philosophy-card">
+
+                    <div class="about-philosophy-number">
+                        01
+                    </div>
+
+                    <div class="about-philosophy-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+
+                    <span class="about-philosophy-label">
+                        Freshness
+                    </span>
+
+                    <h3>
+                        Fresh Food,
+                        <span>Full Flavour.</span>
+                    </h3>
+
+                    <p>
+                        We believe good food starts with quality ingredients,
+                        thoughtful preparation and flavours that are allowed
+                        to speak for themselves.
+                    </p>
+
+                    <div class="about-philosophy-line"></div>
+
+                </article>
+
+
+                <!-- Generosity -->
+
+                <article class="about-philosophy-card">
+
+                    <div class="about-philosophy-number">
+                        02
+                    </div>
+
+                    <div class="about-philosophy-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+
+                    <span class="about-philosophy-label">
+                        Generosity
+                    </span>
+
+                    <h3>
+                        To Enjoy,
+                        <span>Nothing Held.</span>
+                    </h3>
+
+                    <p>
+                        From loaded wraps to generous platters, our food is
+                        made to feel satisfying, welcoming and worth sharing.
+                    </p>
+
+                    <div class="about-philosophy-line"></div>
+
+                </article>
+
+
+                <!-- Togetherness -->
+
+                <article class="about-philosophy-card">
+
+                    <div class="about-philosophy-number">
+                        03
+                    </div>
+
+                    <div class="about-philosophy-icon">
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+
+                    <span class="about-philosophy-label">
+                        Togetherness
+                    </span>
+
+                    <h3>
+                        Made For
+                        <span>Good Company.</span>
+                    </h3>
+
+                    <p>
+                        Food has a way of bringing people closer. Every meal
+                        at Shawarmia is an invitation to gather, share and enjoy.
+                    </p>
+
+                    <div class="about-philosophy-line"></div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about-difference">
+
+        <div class="container">
+
+            <div class="about-difference-wrapper">
+
+                <!-- Image Side -->
+
+                <div class="about-difference-visual">
+
+                    <div class="about-difference-image">
+                        <img src="images/Fresh Shawarma and Middle Eastern grill food.jpg"
+                            alt="Fresh Shawarma and Middle Eastern grill food">
+                    </div>
+
+                    <div class="about-difference-image-caption">
+
+                        <span>
+                            <i class="fa-solid fa-fire"></i>
+                            Made With Care
+                        </span>
+
+                        <strong>
+                            Bold flavours. Freshly prepared.
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Content Side -->
+
+                <div class="about-difference-content">
+
+                    <span class="about-difference-eyebrow">
+                        <i class="fa-solid fa-star"></i>
+                        The Shawarmia Difference
+                    </span>
+
+                    <h2>
+                        Simple Ingredients.
+                        <span>Big Flavours.</span>
+                    </h2>
+
+                    <p class="about-difference-intro">
+                        We focus on the details that make a good meal
+                        memorable â€” from the way our food is prepared
+                        to the way it is served.
+                    </p>
+
+
+                    <div class="about-difference-points">
+
+                        <!-- Point 01 -->
+
+                        <div class="about-difference-point">
+
+                            <div class="about-difference-point-icon">
+                                <i class="fa-solid fa-seedling"></i>
+                            </div>
+
+                            <div class="about-difference-point-content">
+
+                                <h3>Fresh Ingredients</h3>
+
+                                <p>
+                                    Quality ingredients form the foundation
+                                    of every wrap, platter and grill dish.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Point 02 -->
+
+                        <div class="about-difference-point">
+
+                            <div class="about-difference-point-icon">
+                                <i class="fa-solid fa-fire"></i>
+                            </div>
+
+                            <div class="about-difference-point-content">
+
+                                <h3>Bold Grill Flavours</h3>
+
+                                <p>
+                                    Our menu brings together the smoky,
+                                    aromatic flavours that make Middle
+                                    Eastern grill food so distinctive.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Point 03 -->
+
+                        <div class="about-difference-point">
+
+                            <div class="about-difference-point-icon">
+                                <i class="fa-solid fa-bowl-food"></i>
+                            </div>
+
+                            <div class="about-difference-point-content">
+
+                                <h3>Generous Portions</h3>
+
+                                <p>
+                                    From satisfying wraps to sharing
+                                    platters, our food is made to leave
+                                    you feeling well fed.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Point 04 -->
+
+                        <div class="about-difference-point">
+
+                            <div class="about-difference-point-icon">
+                                <i class="fa-solid fa-face-smile"></i>
+                            </div>
+
+                            <div class="about-difference-point-content">
+
+                                <h3>Made To Share</h3>
+
+                                <p>
+                                    Our food is designed for quick meals,
+                                    family tables, celebrations and
+                                    everything in between.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <a href="menu.html" class="about-difference-btn">
+
+                        Explore Our Menu
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================
+     FRESH INGREDIENTS SECTION
+========================================= -->
+
+    <section class="about-ingredients">
+
+        <div class="container">
+
+            <div class="about-ingredients-heading">
+
+                <span class="about-ingredients-eyebrow">
+                    <i class="fa-solid fa-seedling"></i>
+                    Fresh By Choice
+                </span>
+
+                <h2>
+                    Quality You Can
+                    <span>Taste.</span>
+                </h2>
+
+                <p>
+                    From fresh vegetables and herbs to carefully prepared
+                    meats and sauces, every element comes together to create
+                    the bold flavours we love serving.
+                </p>
+
+            </div>
+
+
+            <div class="about-ingredients-showcase">
+
+                <!-- Ingredient 01 -->
+
+                <article class="about-ingredient-card">
+
+                    <div class="about-ingredient-image">
+                        <img src="images/b15.jpg" alt="Fresh vegetables and herbs">
+                    </div>
+
+                    <div class="about-ingredient-overlay">
+
+                        <span class="about-ingredient-number">
+                            01
+                        </span>
+
+                        <div class="about-ingredient-content">
+
+                            <span class="about-ingredient-label">
+                                Fresh Produce
+                            </span>
+
+                            <h3>
+                                Crisp & Fresh
+                            </h3>
+
+                            <p>
+                                Fresh vegetables, herbs and toppings
+                                that add colour, texture and flavour.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Ingredient 02 -->
+
+                <article class="about-ingredient-card">
+
+                    <div class="about-ingredient-image">
+                        <img src="images/b16.jpg" alt="Freshly grilled meat">
+                    </div>
+
+                    <div class="about-ingredient-overlay">
+
+                        <span class="about-ingredient-number">
+                            02
+                        </span>
+
+                        <div class="about-ingredient-content">
+
+                            <span class="about-ingredient-label">
+                                Grill
+                            </span>
+
+                            <h3>
+                                Rich & Smoky
+                            </h3>
+
+                            <p>
+                                Carefully prepared grill favourites
+                                packed with aromatic Middle Eastern flavours.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Ingredient 03 -->
+
+                <article class="about-ingredient-card">
+
+                    <div class="about-ingredient-image">
+                        <img src="images/b17.jpg" alt="Signature sauce">
+                    </div>
+
+                    <div class="about-ingredient-overlay">
+
+                        <span class="about-ingredient-number">
+                            03
+                        </span>
+
+                        <div class="about-ingredient-content">
+
+                            <span class="about-ingredient-label">
+                                Signature Flavours
+                            </span>
+
+                            <h3>
+                                Smooth & Aromatic
+                            </h3>
+
+                            <p>
+                                Sauces and seasonings that bring every
+                                wrap, platter and grill dish together.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <div class="about-ingredients-footer">
+
+                <div class="about-ingredients-footer-icon">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+
+                <p>
+                    Fresh ingredients. Thoughtful preparation.
+                    <strong>Flavour in every bite.</strong>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================
+     TEAM SECTION
+========================================= -->
+
+    <section class="about-team">
+
+        <div class="container">
+
+            <div class="about-team-heading">
+
+                <span class="about-team-eyebrow">
+                    <i class="fa-solid fa-users"></i>
+                    Meet The Team
+                </span>
+
+                <h2>
+                    The People Behind
+                    <span>Shawarmia.</span>
+                </h2>
+
+                <p>
+                    From the kitchen to the front of house, our team brings
+                    care, energy and a love for great food to everything we do.
+                </p>
+
+            </div>
+
+
+            <div class="about-team-grid">
+
+                <!-- Team Member 01 -->
+
+                <article class="about-team-card">
+
+                    <div class="about-team-image">
+
+                        <img src="images/b18.jpg" alt="Shawarmia team member">
+
+                        <div class="about-team-image-overlay">
+
+                            <span>
+                                <i class="fa-solid fa-fire"></i>
+                                Shawarmia Team
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="about-team-info">
+
+                        <div>
+                            <span class="about-team-role">
+                                Head Chef
+                            </span>
+
+                            <h3>
+                                Rajesh Kumar
+                            </h3>
+                        </div>
+
+                        <span class="about-team-number">
+                            01
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Team Member 02 -->
+
+                <article class="about-team-card">
+
+                    <div class="about-team-image">
+
+                        <img src="images/b21.jpg" alt="Shawarmia team member">
+
+                        <div class="about-team-image-overlay">
+
+                            <span>
+                                <i class="fa-solid fa-fire"></i>
+                                Shawarmia Team
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="about-team-info">
+
+                        <div>
+                            <span class="about-team-role">
+                                Grill Specialist
+                            </span>
+
+                            <h3>
+                                Vijay Sharma
+                            </h3>
+                        </div>
+
+                        <span class="about-team-number">
+                            02
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Team Member 03 -->
+
+                <article class="about-team-card">
+
+                    <div class="about-team-image">
+
+                        <img src="images/b19.jpg" alt="Shawarmia team member">
+
+                        <div class="about-team-image-overlay">
+
+                            <span>
+                                <i class="fa-solid fa-fire"></i>
+                                Shawarmia Team
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="about-team-info">
+
+                        <div>
+                            <span class="about-team-role">
+                                Restaurant Manager
+                            </span>
+
+                            <h3>
+                                Malavika
+                            </h3>
+                        </div>
+
+                        <span class="about-team-number">
+                            03
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Team Member 04 -->
+
+                <article class="about-team-card">
+
+                    <div class="about-team-image">
+
+                        <img src="images/b20.jpg" alt="Shawarmia team member">
+
+                        <div class="about-team-image-overlay">
+
+                            <span>
+                                <i class="fa-solid fa-fire"></i>
+                                Shawarmia Team
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="about-team-info">
+
+                        <div>
+                            <span class="about-team-role">
+                                Guest Experience
+                            </span>
+
+                            <h3>
+                                Ananth Kumar
+                            </h3>
+                        </div>
+
+                        <span class="about-team-number">
+                            04
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================
+     COMMUNITY & GATHERINGS
+========================================= -->
+
+    <section class="about-community">
+
+        <div class="about-community-image">
+
+            <img src="images/b22.jpg" alt="Friends and family enjoying a Middle Eastern meal">
+
+        </div>
+
+        <div class="about-community-overlay"></div>
+
+        <div class="container">
+
+            <div class="about-community-content">
+
+                <span class="about-community-eyebrow">
+                    <i class="fa-solid fa-people-group"></i>
+                    Made For Togetherness
+                </span>
+
+                <h2>
+                    More Than A Meal.
+                    <span>A Place To Gather.</span>
+                </h2>
+
+                <p>
+                    Some of the best moments happen around a table.
+                    Whether you're catching up with friends, sharing a
+                    family meal or celebrating something special, Shawarmia
+                    is made for those moments.
+                </p>
+
+
+                <div class="about-community-highlights">
+
+                    <div class="about-community-highlight">
+
+                        <div class="about-community-highlight-icon">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+
+                        <div>
+                            <h3>Family Meals</h3>
+
+                            <p>
+                                Generous food made for sharing.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="about-community-highlight">
+
+                        <div class="about-community-highlight-icon">
+                            <i class="fa-solid fa-cake-candles"></i>
+                        </div>
+
+                        <div>
+                            <h3>Special Moments</h3>
+
+                            <p>
+                                Food for celebrations big and small.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="about-community-highlight">
+
+                        <div class="about-community-highlight-icon">
+                            <i class="fa-solid fa-champagne-glasses"></i>
+                        </div>
+
+                        <div>
+                            <h3>Shared Tables</h3>
+
+                            <p>
+                                Good food is better together.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <a href="catering-orders.html" class="about-community-btn">
+
+                    Plan A Gathering
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================
+     ABOUT FINAL CTA
+========================================= -->
+
+    <section class="about-final-cta">
+
+        <div class="about-final-cta-pattern"></div>
+
+        <div class="container">
+
+            <div class="about-final-cta-content">
+
+                <span class="about-final-cta-eyebrow">
+                    <i class="fa-solid fa-fire"></i>
+                    Come Taste The Difference
+                </span>
+
+                <h2>
+                    Good Food.
+                    <span>Good People. Good Moments.</span>
+                </h2>
+
+                <p>
+                    Whether you're here for a quick shawarma, a generous
+                    grill platter or a meal shared with people you love,
+                    there's always a place for you at Shawarmia.
+                </p>
+
+
+                <div class="about-final-cta-actions">
+
+                    <a href="menu.html" class="about-final-cta-primary">
+
+                        Explore Our Menu
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+
+                    <a href="locations.html" class="about-final-cta-secondary">
+
+                        Find A Location
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     FOOTER
+     ========================================================= -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo-light.png" alt="Shawarmia Grill">
+                    </a>
+
+                    <p class="footer-description">
+                        Bold shawarma, flame-grilled favorites and authentic
+                        Middle Eastern flavors, freshly prepared for every craving.
+                    </p>
+
+                    <div class="footer-socials">
+
+                        <a href="#" class="footer-social" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="X">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+
+                    <h3 class="footer-title">Quick Links</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html">Our Menu</a>
+                        </li>
+
+                        <li>
+                            <a href="catering.html">Catering Orders</a>
+                        </li>
+
+                        <li>
+                            <a href="locations.html">Locations</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Menu -->
+                <div class="footer-column">
+
+                    <h3 class="footer-title">Explore Menu</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="menu.html#shawarma">Shawarma</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#grill">Grill</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#platters">Platters</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#loaded-sides">
+                                Fries &amp; Loaded Sides
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#drinks-desserts">
+                                Drinks &amp; Desserts
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Contact -->
+                <div class="footer-column footer-contact">
+
+                    <h3 class="footer-title">Get In Touch</h3>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <p>
+                            24 Middle Street,<br>
+                            Food District, India
+                        </p>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <a href="mailto:hello@shawarmiagrill.com">
+                            hello@shawarmiagrill.com
+                        </a>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        <p>
+                            Mon â€“ Sun<br>
+                            11:00 AM â€“ 11:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+
+            <div class="footer-bottom">
+
+                <p>
+                    Â© 2026 Shawarmia Grill. All Rights Reserved.
+                </p>
+
+                <div class="footer-bottom-links">
+
+                    <a href="#">Privacy Policy</a>
+
+                    <span></span>
+
+                    <a href="#">Terms &amp; Conditions</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Scroll To Top -->
+    <button class="scroll-top-btn" id="scrollTopBtn" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

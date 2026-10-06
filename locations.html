@@ -1,0 +1,862 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shawarmia Grill</title>
+
+    <meta name="description"
+        content="Shawarmia Grill serves flavorful Middle Eastern shawarma, flame-grilled dishes, platters, loaded sides, drinks and desserts.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Manrope:wght@400;500;550&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <script src="js/theme-init.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- =========================
+     HEADER
+     ========================= -->
+    <header class="site-header" id="siteHeader">
+        <div class="container header-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="site-logo" aria-label="Shawarmia Grill Home">
+                <img src="images/logo.png" data-theme-light="images/logo.png" data-theme-dark="images/logo-light.png" alt="Shawarmia Grill">
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav class="main-navigation" id="mainNavigation">
+                <ul class="nav-menu">
+
+                    <!-- Home Dropdown -->
+                    <li class="nav-item has-dropdown">
+                        <a href="index.html" class="nav-link">
+                            Home
+                            <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="index.html" class="dropdown-link">
+                                    Home 1
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html" class="dropdown-link">
+                                    Home 2
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">
+                            About
+                        </a>
+                    </li>
+
+
+                    <!-- Menu -->
+                    <li class="nav-item">
+                        <a href="menu.html" class="nav-link">
+                            Menu
+                        </a>
+
+                    </li>
+
+
+                    <!-- Catering -->
+                    <li class="nav-item">
+                        <a href="catering.html" class="nav-link">
+                            Catering Orders
+                        </a>
+                    </li>
+
+
+                    <!-- Locations -->
+                    <li class="nav-item active">
+                        <a href="locations.html" class="nav-link">
+                            Locations
+                        </a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+
+            <!-- Desktop Right Actions -->
+            <div class="header-actions">
+
+                <!-- Dark Mode -->
+                <button type="button" class="header-action-btn theme-toggle" id="themeToggle"
+                    aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+
+                <!-- RTL -->
+                <button type="button" class="header-action-btn rtl-toggle" id="rtlToggle" aria-label="Toggle RTL mode"
+                    title="Toggle RTL mode">
+                    <i class="fa-solid fa-right-left"></i>
+                </button>
+
+                <!-- Login -->
+                <a href="login.html" class="login-btn">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Login</span>
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Menu Toggle -->
+            <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open navigation menu"
+                aria-expanded="false">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-navigation" id="mobileNavigation">
+
+            <nav class="mobile-nav-inner">
+
+                <ul class="mobile-nav-menu">
+
+                    <!-- Home -->
+                    <li class="mobile-nav-item mobile-has-dropdown">
+
+                        <button type="button" class="mobile-nav-link mobile-dropdown-toggle">
+
+                            <span>Home</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+
+                        </button>
+
+                        <ul class="mobile-dropdown-menu">
+
+                            <li>
+                                <a href="index.html" class="mobile-dropdown-link active">
+                                    Home 1
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html" class="mobile-dropdown-link">
+                                    Home 2
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="mobile-nav-item">
+                        <a href="about.html" class="mobile-nav-link">
+                            About
+                        </a>
+                    </li>
+
+
+                    <!-- Menu -->
+                    <li class="mobile-nav-item">
+
+                        <a href="menu.html" class="mobile-nav-link">
+                            Menu
+                        </a>
+
+                    </li>
+
+
+                    <!-- Catering -->
+                    <li class="mobile-nav-item">
+                        <a href="catering.html" class="mobile-nav-link">
+                            Catering Orders
+                        </a>
+                    </li>
+
+
+                    <!-- Locations -->
+                    <li class="mobile-nav-item active">
+                        <a href="locations.html" class="mobile-nav-link">
+                            Locations
+                        </a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="mobile-nav-item">
+                        <a href="contact.html" class="mobile-nav-link">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <!-- Mobile Actions -->
+                <div class="mobile-header-actions">
+
+                    <button type="button" class="mobile-action-btn theme-toggle" id="mobileThemeToggle">
+
+                        <i class="fa-solid fa-moon"></i>
+                        <span>Dark Mode</span>
+
+                    </button>
+
+
+                    <button type="button" class="mobile-action-btn rtl-toggle" id="mobileRtlToggle">
+
+                        <i class="fa-solid fa-right-left"></i>
+                        <span>RTL Mode</span>
+
+                    </button>
+
+                    <a href="login.html" class="mobile-login-btn">
+
+                        <i class="fa-regular fa-user"></i>
+                        <span>Login</span>
+
+                    </a>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <section class="inner-page-hero locations-page-hero">
+
+        <div class="inner-page-hero-overlay"></div>
+
+        <div class="container">
+            <div class="inner-page-hero-content">
+
+                <span class="inner-page-hero-eyebrow">
+                    <i class="fa-solid fa-fire-flame-curved"></i>
+                    Find Us
+                </span>
+
+                <h1>
+                    Your Next Shawarma Is <span>Closer Than You Think.</span>
+                </h1>
+
+                <p>
+                    Find your nearest Shawarmia Grill and enjoy freshly grilled shawarma, smoky favorites and bold
+                    Middle Eastern flavors.
+                </p>
+
+                <div class="inner-page-hero-breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span>Locations</span>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="locations-list">
+        <div class="container">
+
+            <div class="locations-list-header">
+
+                <span class="locations-list-eyebrow">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Our Locations
+                </span>
+
+                <h2>
+                    Come Find Your
+                    <span>Favorite Spot.</span>
+                </h2>
+
+                <p>
+                    Wherever you are, there's always a place to enjoy the
+                    Shawarmia experience. Visit us, grab your favorite meal
+                    and make every bite count.
+                </p>
+
+            </div>
+
+
+            <div class="locations-list-grid">
+
+                <!-- Location 01 -->
+                <div class="location-card">
+
+                    <div class="location-card-image">
+                        <img src="images/c6.jpg" alt="Shawarmia Grill Food District">
+                        <span class="location-card-number">01</span>
+                    </div>
+
+                    <div class="location-card-content">
+
+                        <span class="location-card-label">
+                            Shawarmia Grill
+                        </span>
+
+                        <h3>Food District</h3>
+
+                        <div class="location-card-info">
+
+                            <div>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>
+                                    24 Middle Street,<br>
+                                    Food District, India
+                                </p>
+                            </div>
+
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <p>
+                                    Monday â€“ Sunday<br>
+                                    11:00 AM â€“ 11:00 PM
+                                </p>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                                <p>
+                                    +91 98765 43210
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="location-card-actions">
+
+                            <a href="#" class="location-card-btn">
+                                <span>Get Directions</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                            <a href="contact.html" class="location-card-link">
+                                Contact Us
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Location 02 -->
+                <div class="location-card">
+
+                    <div class="location-card-image">
+                        <img src="images/c7.jpg" alt="Shawarmia Grill City Center">
+                        <span class="location-card-number">02</span>
+                    </div>
+
+                    <div class="location-card-content">
+
+                        <span class="location-card-label">
+                            Shawarmia Grill
+                        </span>
+
+                        <h3>City Center</h3>
+
+                        <div class="location-card-info">
+
+                            <div>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>
+                                    18 Market Road,<br>
+                                    City Center, India
+                                </p>
+                            </div>
+
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <p>
+                                    Monday â€“ Sunday<br>
+                                    11:00 AM â€“ 11:00 PM
+                                </p>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                                <p>
+                                    +91 98765 43210
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="location-card-actions">
+
+                            <a href="#" class="location-card-btn">
+                                <span>Get Directions</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                            <a href="contact.html" class="location-card-link">
+                                Contact Us
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Location 03 -->
+                <div class="location-card">
+
+                    <div class="location-card-image">
+                        <img src="images/c8.jpg" alt="Shawarmia Grill Riverside">
+                        <span class="location-card-number">03</span>
+                    </div>
+
+                    <div class="location-card-content">
+
+                        <span class="location-card-label">
+                            Shawarmia Grill
+                        </span>
+
+                        <h3>Riverside</h3>
+
+                        <div class="location-card-info">
+
+                            <div>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>
+                                    42 Riverside Avenue,<br>
+                                    Riverside, India
+                                </p>
+                            </div>
+
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <p>
+                                    Monday â€“ Sunday<br>
+                                    11:00 AM â€“ 11:00 PM
+                                </p>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                                <p>
+                                    +91 98765 43210
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="location-card-actions">
+
+                            <a href="#" class="location-card-btn">
+                                <span>Get Directions</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                            <a href="contact.html" class="location-card-link">
+                                Contact Us
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="locations-map-section">
+        <div class="container">
+
+            <div class="locations-map-grid">
+
+                <!-- MAP -->
+                <div class="locations-map-wrapper">
+                    <iframe src="https://www.google.com/maps?q=Coimbatore%2C%20Tamil%20Nadu%2C%20India&output=embed"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+
+                <!-- CONTENT -->
+                <div class="locations-map-content">
+
+                    <span class="locations-map-eyebrow">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Find Us Easily
+                    </span>
+
+                    <h2>
+                        Good Food Is
+                        <span>Never Too Far.</span>
+                    </h2>
+
+                    <p>
+                        Looking for your nearest Shawarmia Grill? Find us,
+                        follow the aroma of the grill and enjoy freshly prepared
+                        Middle Eastern favorites with your people.
+                    </p>
+
+
+                    <div class="locations-map-details">
+
+                        <div class="locations-map-detail">
+                            <div class="locations-map-detail-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div>
+                                <span>Our Main Location</span>
+                                <h3>Food District</h3>
+                                <p>
+                                    24 Middle Street,<br>
+                                    Food District, India
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="locations-map-detail">
+                            <div class="locations-map-detail-icon">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+
+                            <div>
+                                <span>Opening Hours</span>
+                                <h3>Open Every Day</h3>
+                                <p>
+                                    Monday â€“ Sunday<br>
+                                    11:00 AM â€“ 11:00 PM
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="locations-map-detail">
+                            <div class="locations-map-detail-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+
+                            <div>
+                                <span>Need Directions?</span>
+                                <h3>+91 98765 43210</h3>
+                                <p>
+                                    Call us and we'll help you find
+                                    the nearest location.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="locations-map-actions">
+
+                        <a href="#" class="locations-map-btn">
+                            <span>Get Directions</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="contact.html" class="locations-map-link">
+                            Contact Us
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="locations-final-cta">
+
+        <div class="locations-final-cta-overlay"></div>
+
+        <div class="container">
+
+            <div class="locations-final-cta-content">
+
+                <span class="locations-final-cta-eyebrow">
+                    <i class="fa-solid fa-fire-flame-curved"></i>
+                    Your Table Is Waiting
+                </span>
+
+                <h2>
+                    Find Us.
+                    <span>Bring Your Appetite.</span>
+                </h2>
+
+                <p>
+                    Pick your nearest Shawarmia Grill, gather your people
+                    and enjoy bold Middle Eastern flavors served fresh
+                    from the grill.
+                </p>
+
+                <div class="locations-final-cta-actions">
+
+                    <a href="menu.html" class="locations-final-cta-btn locations-final-cta-primary">
+                        <span>Explore Our Menu</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="contact.html" class="locations-final-cta-btn locations-final-cta-secondary">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Contact Us</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     FOOTER
+     ========================================================= -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo-light.png" alt="Shawarmia Grill">
+                    </a>
+
+                    <p class="footer-description">
+                        Bold shawarma, flame-grilled favorites and authentic
+                        Middle Eastern flavors, freshly prepared for every craving.
+                    </p>
+
+                    <div class="footer-socials">
+
+                        <a href="#" class="footer-social" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="X">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#" class="footer-social" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+
+                    <h3 class="footer-title">Quick Links</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html">Our Menu</a>
+                        </li>
+
+                        <li>
+                            <a href="catering.html">Catering Orders</a>
+                        </li>
+
+                        <li>
+                            <a href="locations.html">Locations</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Menu -->
+                <div class="footer-column">
+
+                    <h3 class="footer-title">Explore Menu</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="menu.html#shawarma">Shawarma</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#grill">Grill</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#platters">Platters</a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#loaded-sides">
+                                Fries &amp; Loaded Sides
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html#drinks-desserts">
+                                Drinks &amp; Desserts
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Contact -->
+                <div class="footer-column footer-contact">
+
+                    <h3 class="footer-title">Get In Touch</h3>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <p>
+                            24 Middle Street,<br>
+                            Food District, India
+                        </p>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <a href="mailto:hello@shawarmiagrill.com">
+                            hello@shawarmiagrill.com
+                        </a>
+
+                    </div>
+
+                    <div class="footer-contact-item">
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        <p>
+                            Mon â€“ Sun<br>
+                            11:00 AM â€“ 11:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+
+            <div class="footer-bottom">
+
+                <p>
+                    Â© 2026 Shawarmia Grill. All Rights Reserved.
+                </p>
+
+                <div class="footer-bottom-links">
+
+                    <a href="#">Privacy Policy</a>
+
+                    <span></span>
+
+                    <a href="#">Terms &amp; Conditions</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Scroll To Top -->
+    <button class="scroll-top-btn" id="scrollTopBtn" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

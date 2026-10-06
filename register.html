@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create your Shawarmia account.">
+    <title>Create Account | Shawarmia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Manrope:wght@400;500;550&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="js/theme-init.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="auth-page register-page">
+    <header class="auth-header">
+        <div class="header-actions auth-header-actions">
+            <button type="button" class="header-action-btn theme-toggle" aria-label="Toggle dark mode"
+                title="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+            <button type="button" class="header-action-btn rtl-toggle" aria-label="Toggle RTL mode"
+                title="Toggle RTL mode"><i class="fa-solid fa-right-left" aria-hidden="true"></i></button>
+        </div>
+    </header>
+    <main class="auth-main">
+        <section class="auth-card" aria-labelledby="auth-title">
+            <div class="auth-card-brand"><a href="index.html" aria-label="Shawarmia home"><img src="images/logo.png"
+                        data-theme-light="images/logo.png" data-theme-dark="images/logo-light.png"
+                        alt="Shawarmia Grill"></a></div>
+            <p class="auth-eyebrow">Join Shawarmia</p>
+            <h1 id="auth-title">Create Your Account</h1>
+            <p class="auth-description">Create an account to make your Shawarmia experience easier.</p>
+            <form class="auth-form" action="#" method="post">
+                <div class="auth-field"><label for="register-name">Full Name</label><input id="register-name"
+                        name="name" type="text" autocomplete="name" placeholder="Enter your full name" required></div>
+                <div class="auth-field"><label for="register-email">Email Address</label><input id="register-email"
+                        name="email" type="email" autocomplete="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="auth-field"><label for="register-phone">Phone Number</label><input id="register-phone"
+                        name="phone" type="tel" autocomplete="tel" placeholder="Enter your phone number" required></div>
+                <div class="auth-field"><label for="register-password">Password</label>
+                    <div class="auth-password-wrap"><input id="register-password" name="password" type="password"
+                            autocomplete="new-password" placeholder="Create a password" required><button
+                            class="auth-password-toggle" type="button" aria-label="Show password"
+                            aria-pressed="false"><i class="fa-regular fa-eye" aria-hidden="true"></i></button></div>
+                </div>
+                <div class="auth-field"><label for="register-confirm-password">Confirm Password</label>
+                    <div class="auth-password-wrap"><input id="register-confirm-password" name="confirm-password"
+                            type="password" autocomplete="new-password" placeholder="Confirm your password"
+                            required><button class="auth-password-toggle" type="button" aria-label="Show password"
+                            aria-pressed="false"><i class="fa-regular fa-eye" aria-hidden="true"></i></button></div>
+                </div>
+                <label class="auth-check auth-terms"><input type="checkbox" name="terms" required><span>I agree to the
+                        <a class="auth-link" href="#terms">Terms &amp; Conditions</a> and <a class="auth-link"
+                            href="#privacy">Privacy Policy</a>.</span></label>
+                <button class="auth-submit" type="submit">Create Account</button>
+            </form>
+            <div class="auth-divider" aria-label="Or"><span></span><span
+                    class="auth-divider-label">OR</span><span></span></div>
+            <p class="auth-social-label">Continue with</p>
+            <div class="auth-socials" aria-label="Social sign in options">
+                <button class="auth-social auth-social-google" type="button" aria-label="Continue with Google"><img
+                        src="images/icons/google-logo.svg" alt=""></button>
+                <button class="auth-social auth-social-facebook" type="button" aria-label="Continue with Facebook"><i
+                        class="fa-brands fa-facebook-f" aria-hidden="true"></i></button>
+                <button class="auth-social auth-social-apple" type="button" aria-label="Continue with Apple"><i
+                        class="fa-brands fa-apple" aria-hidden="true"></i></button>
+            </div>
+            <p class="auth-footer-copy">Already have an account? <a class="auth-link" href="login.html">Login</a></p>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+
+</html>
