@@ -6,6 +6,35 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     /* =========================
+       CURRENT PAGE NAVIGATION
+       ========================= */
+    const currentPage = window.location.pathname.split("/").pop().toLowerCase() || "index.html";
+
+    document.querySelectorAll(".nav-menu .nav-item, .mobile-nav-menu .mobile-nav-item")
+        .forEach(function (item) {
+            const links = Array.from(item.querySelectorAll("a[href]"));
+            let itemIsCurrent = false;
+
+            links.forEach(function (link) {
+                const linkPage = new URL(link.href, window.location.href).pathname.split("/").pop().toLowerCase();
+                const isCurrent = linkPage === currentPage;
+
+                link.classList.toggle("active", isCurrent);
+                if (isCurrent) {
+                    link.setAttribute("aria-current", "page");
+                    itemIsCurrent = true;
+                } else {
+                    link.removeAttribute("aria-current");
+                }
+            });
+
+            item.classList.toggle("active", itemIsCurrent);
+
+            const topLink = item.querySelector(":scope > .nav-link, :scope > .mobile-nav-link");
+            if (topLink) topLink.classList.toggle("active", itemIsCurrent);
+        });
+
+    /* =========================
        MENU CATEGORY NAVIGATION
        ========================= */
     const menuLinks = Array.from(document.querySelectorAll(".menu-filter-link"));
