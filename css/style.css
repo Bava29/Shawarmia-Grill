@@ -759,7 +759,7 @@ body {
     justify-content: center;
 
     border: 1px solid rgba(32, 32, 28, 0.12);
-    border-radius: 50%;
+    border-radius: 4px;
 
     background-color: transparent;
     color: var(--text-primary);
@@ -24157,5 +24157,165 @@ html[dir="rtl"] .input-group {
 
     html body .locations-list-grid .location-card-link {
         font-size: 11px !important;
+    }
+}
+
+
+/* ABOUT COMMUNITY — MOBILE POINTS LEFT ALIGN */
+@media (max-width: 767px) {
+
+    .about-community-highlights {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 16px !important;
+        margin: 28px 0 30px !important;
+    }
+
+    .about-community-highlight {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: 12px !important;
+        text-align: left !important;
+    }
+
+    .about-community-highlight-icon {
+        flex: 0 0 40px !important;
+        width: 40px !important;
+        height: 40px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+
+    .about-community-highlight>div:last-child {
+        flex: 1 1 auto !important;
+        min-width: 0 !important;
+        text-align: left !important;
+    }
+
+    .about-community-highlight h3 {
+        width: 100% !important;
+        margin: 0 0 5px !important;
+        text-align: left !important;
+    }
+
+    .about-community-highlight p {
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: left !important;
+    }
+
+    .about-community-btn {
+        align-self: flex-start;
+    }
+}
+
+
+/* =========================================
+   SHAWARMIA AUTH PAGES — READABLE TEXT
+   LOGIN + REGISTER
+========================================= */
+
+.auth-card h1 {
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.auth-description {
+    font-size: 15px !important;
+    line-height: 1.65;
+}
+
+.auth-field label {
+    font-size: 14px !important;
+    font-weight: 500;
+}
+
+.auth-field input {
+    height: 52px;
+    padding: 0 14px;
+    font-size: 15px !important;
+}
+
+.auth-options {
+    font-size: 14px !important;
+}
+
+.auth-check {
+    font-size: 14px !important;
+    line-height: 1.5;
+}
+
+.auth-check input {
+    width: 16px;
+    height: 16px;
+}
+
+.auth-link {
+    font-size: 14px;
+}
+
+.auth-submit {
+    min-height: 56px;
+    font-size: 15px !important;
+}
+
+.auth-divider-label {
+    font-size: 12px;
+}
+
+.auth-social-label {
+    font-size: 14px !important;
+}
+
+.auth-social {
+    width: 48px;
+    height: 48px;
+}
+
+.auth-footer-copy {
+    font-size: 14px !important;
+    line-height: 1.7;
+}
+
+/* Mobile text sizing */
+@media (max-width: 575px) {
+    .auth-card h1 {
+        font-size: 28px;
+    }
+
+    .auth-description {
+        font-size: 14px !important;
+    }
+
+    .auth-field label {
+        font-size: 14px !important;
+    }
+
+    .auth-field input {
+        height: 52px;
+        font-size: 15px !important;
+    }
+
+    .auth-options,
+    .auth-check,
+    .auth-link {
+        font-size: 13px !important;
+    }
+
+    .auth-submit {
+        min-height: 54px;
+        font-size: 15px !important;
+    }
+
+    .auth-social-label,
+    .auth-footer-copy {
+        font-size: 13px !important;
     }
 }
