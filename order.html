@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shawarmia Grill</title>
+
+    <meta name="description"
+        content="Shawarmia Grill serves flavorful Middle Eastern shawarma, flame-grilled dishes, platters, loaded sides, drinks and desserts.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Manrope:wght@400;500;550&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <script src="js/theme-init.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body class="order-page">
+
+    <!-- HEADER -->
+    <header class="order-header">
+
+        <a href="index.html" class="order-logo">
+            <img src="images/logo.png" data-theme-light="images/logo.png" data-theme-dark="images/logo-light.png"
+                alt="Shawarmia Grill">
+        </a>
+
+        <div class="header-actions">
+
+            <button type="button" class="header-action-btn theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <button type="button" class="header-action-btn rtl-toggle" id="rtlToggle" aria-label="Toggle RTL mode">
+                <i class="fa-solid fa-right-left"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ORDER FORM -->
+    <main class="order-main">
+
+        <section class="order-card">
+
+            <div class="order-card-heading">
+
+                <span class="order-eyebrow">
+                    <i class="fa-solid fa-fire"></i>
+                    SHAWARMIA GRILL
+                </span>
+
+                <h1>Place Your Order</h1>
+
+                <p>
+                    Freshly prepared flavours, made just the way you like.
+                    Fill in your details to get started.
+                </p>
+
+            </div>
+
+
+            <form class="order-form" action="#" method="post">
+
+                <div class="order-field">
+                    <label for="customerName">Full Name</label>
+                    <input type="text" id="customerName" name="customerName" placeholder="Enter your full name"
+                        required>
+                </div>
+
+
+                <div class="order-field">
+                    <label for="customerPhone">Phone Number</label>
+                    <input type="tel" id="customerPhone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+
+
+                <div class="order-field">
+                    <label for="foodCategory">Food Category</label>
+
+                    <select id="foodCategory" name="category" required>
+                        <option value="">Choose a category</option>
+                        <option>Shawarma</option>
+                        <option>Grill</option>
+                        <option>Platters</option>
+                        <option>Fries & Loaded Sides</option>
+                        <option>Drinks & Desserts</option>
+                    </select>
+                </div>
+
+
+                <div class="order-field">
+                    <label for="foodItem">Select Your Item</label>
+
+                    <select id="foodItem" name="foodItem" required>
+                        <option value="">Select your food item</option>
+                        <option>Chicken Shawarma</option>
+                        <option>Special Shawarma</option>
+                        <option>Mixed Grill</option>
+                        <option>Grilled Chicken</option>
+                        <option>Mixed Platter</option>
+                        <option>Loaded Fries</option>
+                    </select>
+                </div>
+
+
+                <div class="order-form-row">
+
+                    <div class="order-field">
+                        <label for="quantity">Quantity</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+                    </div>
+
+                    <div class="order-field">
+                        <label for="orderType">Order Type</label>
+
+                        <select id="orderType" name="orderType" required>
+                            <option value="">Select type</option>
+                            <option>Pickup</option>
+                            <option>Delivery</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+                <div class="order-field">
+                    <label for="deliveryAddress">Delivery Address</label>
+                    <textarea id="deliveryAddress" name="address" rows="3"
+                        placeholder="Enter your delivery address"></textarea>
+                </div>
+
+
+                <div class="order-field">
+                    <label for="orderNotes">Special Instructions</label>
+                    <textarea id="orderNotes" name="notes" rows="2"
+                        placeholder="Any special requests? (Optional)"></textarea>
+                </div>
+
+
+                <button type="submit" class="order-submit-btn">
+                    Place My Order
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+                <p class="order-bottom-note">
+                    <i class="fa-solid fa-circle-check"></i>
+                    Fresh food. Great taste. Every order.
+                </p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
