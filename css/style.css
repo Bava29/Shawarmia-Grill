@@ -24319,3 +24319,300 @@ html[dir="rtl"] .input-group {
         font-size: 13px !important;
     }
 }
+
+
+/* =========================================
+   SHAWARMIA - ORDER PAGE
+========================================= */
+
+.order-page {
+    min-height: 100vh;
+    background: var(--body-bg);
+}
+
+/* Header */
+
+.order-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 84px;
+    padding: 15px 4%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid var(--border-color);
+    z-index: 10;
+}
+
+.order-logo {
+    display: inline-flex;
+    align-items: center;
+}
+
+.order-logo img {
+    width: 155px;
+    height: auto;
+}
+
+.order-header .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* Main Form Area */
+
+.order-main {
+    min-height: 100vh;
+    padding: 115px 20px 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Form Card */
+
+.order-card {
+    width: 100%;
+    max-width: 570px;
+
+    padding: 38px 42px;
+
+    background: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+
+    box-shadow: 0 12px 40px rgba(32, 32, 28, 0.07);
+}
+
+
+/* Heading */
+
+.order-card-heading {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.order-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-bottom: 12px;
+
+    color: var(--secondary-color);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.order-card-heading h1 {
+    margin-bottom: 10px;
+    color: var(--text-primary);
+    font-family: var(--heading-font);
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.order-card-heading p {
+    max-width: 420px;
+    margin: auto;
+
+    color: var(--text-secondary);
+    font-size: 15px;
+}
+
+
+/* Form */
+
+.order-form {
+    display: grid;
+    gap: 17px;
+}
+
+.order-field {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.order-field label {
+    color: var(--text-primary);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.order-field input,
+.order-field select,
+.order-field textarea {
+    width: 100%;
+    min-height: 48px;
+    padding: 12px 14px;
+
+    background: var(--input-bg);
+    color: var(--text-primary);
+
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+
+    outline: none;
+    font-family: var(--body-font);
+    font-size: 15px;
+
+    transition: var(--transition);
+}
+
+.order-field textarea {
+    resize: vertical;
+}
+
+.order-field input:focus,
+.order-field select:focus,
+.order-field textarea:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 3px rgba(216, 155, 50, 0.12);
+}
+
+.order-field input::placeholder,
+.order-field textarea::placeholder {
+    color: var(--muted-color);
+}
+
+
+/* Two Column Fields */
+
+.order-form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+
+/* Submit Button */
+
+.order-submit-btn {
+    width: 100%;
+    min-height: 52px;
+    margin-top: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    background: var(--secondary-color);
+    color: var(--primary-color);
+
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+
+    font-family: var(--body-font);
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: var(--transition);
+}
+
+.order-submit-btn:hover {
+    background: var(--primary-color);
+    color: var(--white-color);
+    border-color: var(--primary-color);
+}
+
+.order-submit-btn i {
+    transition: transform 0.3s ease;
+}
+
+.order-submit-btn:hover i {
+    transform: translateX(4px);
+}
+
+
+/* Bottom Note */
+
+.order-bottom-note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    margin-top: 17px;
+
+    color: var(--text-secondary);
+    font-size: 13px;
+}
+
+.order-bottom-note i {
+    color: var(--secondary-color);
+}
+
+
+/* RTL */
+
+html[dir="rtl"] .order-submit-btn:hover i {
+    transform: translateX(-4px);
+}
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+
+    .order-header {
+        min-height: 72px;
+        padding: 12px 18px;
+    }
+
+    .order-logo img {
+        width: 125px;
+    }
+
+    .order-main {
+        padding: 100px 15px 30px;
+    }
+
+    .order-card {
+        padding: 28px 20px;
+    }
+
+    .order-card-heading h1 {
+        font-size: 30px;
+    }
+
+    .order-form-row {
+        grid-template-columns: 1fr;
+        gap: 17px;
+    }
+
+}
+
+/* Order Card - Vertical Position */
+.order-main {
+    min-height: 100vh;
+    padding: 115px 20px 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: translateY(-25px);
+}
+
+.order-card select {
+    padding-right: 42px !important;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2320201C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center !important;
+}
+
+html.dark-mode .order-card select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+}
